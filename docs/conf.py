@@ -6,6 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import ablog
+
 project = 'LimberDuck'
 copyright = 'Copyright &copy; 2018-2024, <a href="https://damiankrawczyk.com">Damian Krawczyk</a>'
 author = 'Damian Krawczyk'
@@ -95,14 +97,6 @@ blog_path = "blog/archive"
 blog_baseurl = "https://limberduck-org.readthedocs.io/"
 blog_feed_archives = True
 blog_feed_fulltext = True
-blog_feed_templates = {
-    "atom": {
-        "content": "{{ title }}{% for tag in post.tags %}" " #{{ tag.name|trim()|replace(' ', '') }}" "{% endfor %}",
-    },
-    "social": {
-        "content": "{{ title }}{% for tag in post.tags %}" " #{{ tag.name|trim()|replace(' ', '') }}" "{% endfor %}",
-    },
-}
 
 html_sidebars = {
    '**': ["ablog/postcard.html",

@@ -26,7 +26,7 @@ LimberDuck
     :class-row: surface
 
     .. grid-item-card:: :octicon:`terminal` nessus file reader (``nfr``)
-      :link: /tools/nessus-file-reader/
+      :link: tools/nessus-file-reader/
       
       |nfr_pypi_downloads|
 
@@ -35,7 +35,7 @@ LimberDuck
 
 
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (``nfa``)
-      :link: /tools/nessus-file-analyzer/
+      :link: tools/nessus-file-analyzer/
 
       |nfa_pypi_downloads|
       

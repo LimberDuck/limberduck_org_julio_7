@@ -88,12 +88,13 @@ html_theme_options = {
 #     ]
 # }
 
+
 blog_authors = {
     'Damian': ('Damian Krawczyk', 'https://damiankrawczyk.com'),
 }
 post_date_format = "%Y-%m-%d %H:%M:%S"
 blog_title = "LimberDuck News"
-blog_path = ""
+blog_path = "en/latest/blog"
 blog_baseurl = "https://limberduck-org.readthedocs.io/"
 blog_feed_archives = True
 blog_feed_fulltext = True

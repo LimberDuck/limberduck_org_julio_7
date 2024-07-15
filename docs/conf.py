@@ -88,7 +88,6 @@ html_theme_options = {
 #     ]
 # }
 
-
 blog_authors = {
     'Damian': ('Damian Krawczyk', 'https://damiankrawczyk.com'),
 }

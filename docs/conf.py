@@ -91,7 +91,17 @@ blog_authors = {
     'Damian': ('Damian Krawczyk', 'https://damiankrawczyk.com'),
 }
 post_date_format = "%Y-%m-%d %H:%M:%S"
-
+blog_baseurl = "https://limberduck-org.readthedocs.io/"
+blog_feed_archives = True
+blog_feed_fulltext = True
+blog_feed_templates = {
+    "atom": {
+        "content": "{{ title }}{% for tag in post.tags %}" " #{{ tag.name|trim()|replace(' ', '') }}" "{% endfor %}",
+    },
+    "social": {
+        "content": "{{ title }}{% for tag in post.tags %}" " #{{ tag.name|trim()|replace(' ', '') }}" "{% endfor %}",
+    },
+}
 
 html_sidebars = {
    '**': ["ablog/postcard.html",

@@ -16,7 +16,7 @@ LimberDuck
 
 .. container:: buttons
 
-    `Start here </about/>`_
+    `Start here <about/>`_
     `GitHub <https://github.com/LimberDuck>`_
 
 

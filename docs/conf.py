@@ -50,26 +50,26 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "About",
-            "url": "/about/index",
+            "url": "about/index",
         },
         {
             "title": "Tools",
             "children": [
                 {
                     "title": "nessus file reader (nfr)",
-                    "url": "/tools/nessus-file-reader/index",
+                    "url": "tools/nessus-file-reader/index",
                     "summary": "CLI tool and python module",
                 },
                 {
                     "title": "nessus file analyzer (nfa)",
-                    "url": "/tools/nessus-file-analyzer/index",
+                    "url": "tools/nessus-file-analyzer/index",
                     "summary": "GUI tool",
                 },
             ]
         },
         {
             "title": "Contact",
-            "url": "/contact/index",
+            "url": "contact/index",
         },
         {
             "title": "News",

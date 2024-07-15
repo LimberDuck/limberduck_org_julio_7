@@ -1,0 +1,7 @@
+{
+    "virtualenvPath": "/Users/$USER/.virtualenvs/sphinx/bin",
+    "python.pythonPath": "/Users/$USER/.virtualenvs/sphinx/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}/docs"
+}

@@ -77,7 +77,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
 
    **nessus file reader** (``nfr``) |CLI| running in Terminal
 
-technology stack
+Technology stack
 ----------------
 
 .. image:: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
@@ -86,10 +86,22 @@ technology stack
    :width: 220px
 
 
-stargazers over time
+Stargazers over time
 --------------------
 
-|stargazers_over_time|
+.. image:: https://starchart.cc/LimberDuck/nessus-file-reader.svg
+    :target: https://starchart.cc/LimberDuck/nessus-file-reader
+    :alt: Stargazers over time
+
+Instructions
+------------
+
+.. toctree::
+
+   installation
+   running
+   using
+   programming
 
 ----
 
@@ -121,15 +133,3 @@ stargazers over time
 .. |pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-reader?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/nessus-file-reader
     :alt: PyPI - Downloads
-
-.. |stargazers_over_time| image:: https://starchart.cc/LimberDuck/nessus-file-reader.svg
-    :target: https://starchart.cc/LimberDuck/nessus-file-reader
-    :alt: Stargazers over time
-
-.. toctree::
-   :hidden:
-
-   installation
-   running
-   using
-   programming

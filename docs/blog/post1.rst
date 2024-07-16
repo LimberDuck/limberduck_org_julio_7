@@ -7,7 +7,6 @@ Test post 1
    :tags: nfr
    :category: documentation
    :author: Damian
-   :language: en
 
 Test content for post 1
  

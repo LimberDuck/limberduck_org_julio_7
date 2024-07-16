@@ -7,6 +7,5 @@ Test post 2
    :tags: all
    :category: website
    :author: Damian
-   :language: en
 
 Test content for post 2

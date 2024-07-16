@@ -7,6 +7,5 @@ Test post 3
    :tags: nfr, nfa
    :category: release
    :author: Damian
-   :language: en
 
 Test content for post 3

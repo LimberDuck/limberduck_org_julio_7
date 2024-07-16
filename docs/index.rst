@@ -28,7 +28,7 @@ LimberDuck
     .. grid-item-card:: :octicon:`terminal` nessus file reader (``nfr``)
       :link: tools/nessus-file-reader/
       
-      |nfr_pypi_downloads|
+      |nfr_pypi_downloads| |nfr_stars_from_users|
 
       |CLI| tool and python module which enables you to parse nessus files 
       with |VA| scan results performed using Tenable Nessus ® by Tenable, Inc.
@@ -37,7 +37,7 @@ LimberDuck
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (``nfa``)
       :link: tools/nessus-file-analyzer/
 
-      |nfa_pypi_downloads|
+      |nfa_pypi_downloads| |nfa_stars_from_users|
       
       |GUI| tool which enables you to analyze nessus files 
       with |VA| scan results performed using Tenable Nessus ® by Tenable, Inc.
@@ -138,6 +138,14 @@ LimberDuck
     :target: https://pypistats.org/packages/nessus-file-analyzer
     :alt: PyPI - Downloads
 
+.. |nfa_stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/nessus-file-analyzer?label=Stars&style=social
+    :target: https://github.com/LimberDuck/nessus-file-analyzer
+    :alt: GitHub Stars
+
 .. |nfr_pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-reader?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/nessus-file-reader
     :alt: PyPI - Downloads
+
+.. |nfr_stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/nessus-file-reader?label=Stars&style=social
+    :target: https://github.com/LimberDuck/nessus-file-reader
+    :alt: GitHub Stars

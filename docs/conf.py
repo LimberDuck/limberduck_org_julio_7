@@ -106,6 +106,10 @@ html_sidebars = {
         ]
 }
 
+html_css_files = [
+  'custom.css',
+]
+
 rst_prolog =  """
 .. |GUI| replace:: :abbr:`GUI (Graphical User Interface)`
 .. |CLI| replace:: :abbr:`CLI (command-line interfaces)`

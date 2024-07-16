@@ -13,7 +13,6 @@ News
 
 .. toctree::
    :hidden:
+   :glob:
 
-   post3
-   post2
-   post1
+   *

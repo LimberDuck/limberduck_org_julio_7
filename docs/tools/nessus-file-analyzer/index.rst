@@ -95,7 +95,7 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
 
    **nessus file analyzer** (``nfa``) main window running on Ubuntu, Windows and macOS. 
 
-technology stack
+Technology stack
 ----------------
 
 .. image:: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
@@ -113,7 +113,7 @@ technology stack
    :target: https://riverbankcomputing.com/software/pyqt
    :width: 60px
 
-testimonials
+Testimonials
 ------------
 
    I love the Nessus File Analyzer, so thank you so much for sharing and maintaining.
@@ -144,10 +144,15 @@ testimonials
 
    -- User
 
-stargazers over time
+Stargazers over time
 --------------------
 
-|stargazers_over_time|
+.. figure:: https://starchart.cc/LimberDuck/nessus-file-analyzer.svg?variant=adaptive
+    :target: https://starchart.cc/LimberDuck/nessus-file-analyzer
+    :alt: Stargazers over time
+    :align: center
+
+    Nessus file analyzer (``nfa``) GitHub repository stars over time.
 
 
 ----
@@ -181,10 +186,6 @@ stargazers over time
 .. |pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-analyzer?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/nessus-file-analyzer
     :alt: PyPI - Downloads
-
-.. |stargazers_over_time| image:: https://starchart.cc/LimberDuck/nessus-file-analyzer.svg
-    :target: https://starchart.cc/LimberDuck/nessus-file-analyzer
-    :alt: Stargazers over time
 
 .. toctree::
    :hidden:

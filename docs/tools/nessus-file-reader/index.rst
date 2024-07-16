@@ -89,14 +89,18 @@ Technology stack
 Stargazers over time
 --------------------
 
-.. image:: https://starchart.cc/LimberDuck/nessus-file-reader.svg
+.. figure:: https://starchart.cc/LimberDuck/nessus-file-reader.svg?variant=adaptive
     :target: https://starchart.cc/LimberDuck/nessus-file-reader
     :alt: Stargazers over time
+    :align: center
 
-Instructions
-------------
+    Nessus file reader (``nfr``) GitHub repository stars over time.
+
+.. Instructions
+.. ------------
 
 .. toctree::
+   :hidden:
 
    installation
    running

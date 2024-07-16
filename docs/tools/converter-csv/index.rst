@@ -57,7 +57,7 @@ Source [#]_ tool.
 .. image:: https://user-images.githubusercontent.com/9287709/57588063-d4b2f280-750e-11e9-9ba8-e2d301d38cbc.png
    :width: 600
 
-technology stack
+Technology stack
 ----------------
 
 .. image:: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
@@ -74,6 +74,16 @@ technology stack
    :alt: PyQt logo
    :target: https://riverbankcomputing.com/software/pyqt
    :width: 60px
+
+Stargazers over time
+--------------------
+
+.. figure:: https://starchart.cc/LimberDuck/converter-csv.svg?variant=adaptive
+    :target: https://starchart.cc/LimberDuck/converter-csv
+    :alt: Stargazers over time
+    :align: center
+
+    Converter CSV GitHub repository stars over time.
 
 .. |license| image:: https://img.shields.io/github/license/LimberDuck/converter-csv.svg?style=social
     :target: https://github.com/LimberDuck/converter-csv/blob/master/LICENSE

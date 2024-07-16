@@ -8,7 +8,7 @@ News
 .. postlist::
    :language: en
    :date: %Y-%m-%d
-   :format: {date} - {title} - {category} - {tags}
+   :format: {date} - {title}
    :list-style: circle
 
 .. toctree::

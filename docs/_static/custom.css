@@ -1,7 +1,9 @@
-/* ethical ads on rtd */
-#ethical-ad-placement .ethical-sidebar {
-    position: relative;
-    background-color: var(--sy-c-surface);
-    padding: 0.8rem;
-    border-top: 1px solid var(--sy-c-divider);
-  }
+.localtoc {
+    border-bottom: 1px solid var(--sy-c-divider);
+    padding-bottom: 0.8rem;
+}
+
+.ablog__postcard {
+    border-bottom: 1px solid var(--sy-c-divider);
+    padding-bottom: 0.8rem;
+}

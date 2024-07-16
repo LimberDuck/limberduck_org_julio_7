@@ -133,3 +133,4 @@ Instructions
 .. |pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-reader?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/nessus-file-reader
     :alt: PyPI - Downloads
+

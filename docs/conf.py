@@ -38,8 +38,8 @@ html_theme = "shibuya"
 html_static_path = ['_static']
 
 html_title = "LimberDuck"
-html_baseurl = "https://limberduck-org.readthedocs.io/"
-# sitemap_url_scheme = "{link}"
+html_baseurl = "https://limberduck-org.readthedocs.io/en/latest/"
+sitemap_url_scheme = "{link}"
 
 html_logo = "_static/img/LimberDuck-logo.png"
 

@@ -15,10 +15,11 @@ Import `nessus-file-reader` module.
 File functions
 --------------
 
-Use `file` functions to get details about provided file e.g. root, file name, file size.
+Use `file` functions to get details about provided file, e.g., root, file name, file size.
    
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 5,7,8
 
    import nessus_file_reader as nfr
 
@@ -35,10 +36,11 @@ Use `file` functions to get details about provided file e.g. root, file name, fi
 Scan functions
 --------------
 
-Use `scan` functions to get details about provided scan e.g. report name, number of target/scanned/credentialed hosts, scan time start/end/elapsed and more.
+Use `scan` functions to get details about provided scan, e.g., report name, number of target/scanned/credentialed hosts, scan time start/end/elapsed and more.
 
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 7-13
 
    import nessus_file_reader as nfr
 
@@ -61,10 +63,11 @@ Use `scan` functions to get details about provided scan e.g. report name, number
 Host functions
 --------------
 
-Use `host` functions to get details about hosts from provided scan e.g. report hosts names, operating system, hosts scan time start/end/elapsed, number of Critical/High/Medium/Low/None findings and more.
+Use `host` functions to get details about hosts from provided scan, e.g., report hosts names, operating system, hosts scan time start/end/elapsed, number of Critical/High/Medium/Low/None findings and more.
 
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 8-17
 
    import nessus_file_reader as nfr
 
@@ -92,10 +95,11 @@ Use `host` functions to get details about hosts from provided scan e.g. report h
 Plugin functions
 ----------------
 
-Use `plugin` functions to get details about plugins reported in provided scan e.g. plugins ID, plugins risk factor, plugins name.
+Use `plugin` functions to get details about plugins reported in provided scan, e.g., plugins ID, plugins risk factor, plugins name.
 
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 10-12
 
    import nessus_file_reader as nfr
 
@@ -113,10 +117,11 @@ Use `plugin` functions to get details about plugins reported in provided scan e.
          print('\t', plugin_id, '  \t\t\t', risk_factor, '  \t\t\t', plugin_name)
 
 
-If you want to get output for interesting you plugin e.g. "Nessus Scan Information" use below function
+If you want to get output for interesting you plugin, e.g., "Nessus Scan Information" use below function
 
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 8
 
    import nessus_file_reader as nfr
 
@@ -130,10 +135,11 @@ If you want to get output for interesting you plugin e.g. "Nessus Scan Informati
       print(f'Nessus Scan Information Plugin Output:\n{pido_19506}')
 
 
-If you know that interesting you plugin occurs more than ones for particular host e.g. "Netstat Portscanner (SSH)" use below function
+If you know that interesting you plugin occurs more than ones for particular host, e.g., "Netstat Portscanner (SSH)" use below function
 
 .. code-block:: python
    :linenos:
+   :emphasize-lines: 8
 
    import nessus_file_reader as nfr
 

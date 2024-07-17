@@ -10,6 +10,9 @@ Open nessus files
 
 You have a few possibilities to open your nessus files in **nessus file analyzer** (``nfa``).
 
+.. versionadded:: v0.5.0
+   You can open nessus files from inside a ZIP archive. You don't need to unzip nessus files anymore.
+
 **OPTION 1** - by opening file\\-s
 
 1. Open **nessus file analyzer** (``nfa``).

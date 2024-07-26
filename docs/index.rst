@@ -57,8 +57,8 @@ LimberDuck
 
 ----
 
-.. rubric:: testimonials
-
+Testimonials
+------------
 
 .. pull-quote::
 

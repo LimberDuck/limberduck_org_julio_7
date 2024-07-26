@@ -101,7 +101,7 @@ Stargazers over time
     :target: https://github.com/LimberDuck/converter-csv/releases
     :alt: Latest Release version
 
-.. |latest_release_date| image:: https://img.shields.io/github/release-date/limberduck/converter-csv?label=released&logo=GitHub&style=social
+.. |latest_release_date| image:: https://img.shields.io/github/release-date/limberduck/converter-csv?label=released&style=social
     :target: https://github.com/LimberDuck/converter-csv/releases
     :alt: GitHub Release Date
 

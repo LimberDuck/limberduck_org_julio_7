@@ -130,7 +130,7 @@ Stargazers over time
     :target: https://github.com/LimberDuck/nessus-file-reader/releases
     :alt: Latest Release version
 
-.. |latest_release_date| image:: https://img.shields.io/github/release-date/limberduck/nessus-file-reader?label=released&logo=GitHub&style=social
+.. |latest_release_date| image:: https://img.shields.io/github/release-date/limberduck/nessus-file-reader?label=released&style=social
     :target: https://github.com/LimberDuck/nessus-file-reader/releases
     :alt: GitHub Release Date
 

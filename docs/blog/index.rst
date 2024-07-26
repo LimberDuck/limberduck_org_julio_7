@@ -3,7 +3,7 @@
 News
 ====
 
-`LimberDuck News (RSS) <https://limberduck-org.readthedocs.io/en/latest/blog/atom.xml>`_
+`LimberDuck News (RSS) <https://limberduck.org/en/latest/blog/atom.xml>`_
 
 .. postlist::
    :language: en

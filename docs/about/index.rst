@@ -17,9 +17,10 @@ tailored for cybersecurity professionals. These tools aim to streamline and
 automate tasks, thereby reducing workload and enabling engineers and managers to 
 concentrate on data analysis and strategic decision-making.
 
-Explore **tools** that parse vulnerability assessment [2]_ results, presenting them in clear, 
-actionable formats. Review **notebooks** to verify vulnerability [3]_ statistics and create 
-your own analyses.
+Go to the left menu (**<--**) and explore **tools** that parse vulnerability assessment [2]_ results, 
+presenting them in clear, actionable formats. Review **notebooks** to verify vulnerability [3]_ 
+statistics and create your own analyses. The right menu (**-->**) will show you a table of contents of 
+the currently open page.
 
 
 ----

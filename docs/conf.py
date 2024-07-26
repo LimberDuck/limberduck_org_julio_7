@@ -38,7 +38,7 @@ html_theme = "shibuya"
 html_static_path = ['_static']
 
 html_title = "LimberDuck"
-html_baseurl = "https://limberduck-org.readthedocs.io/en/latest/"
+html_baseurl = "https://limberduck.org/en/latest/"
 sitemap_url_scheme = "{link}"
 
 html_logo = "_static/img/LimberDuck-logo.png"
@@ -95,7 +95,7 @@ blog_authors = {
 post_date_format = "%Y-%m-%d %H:%M:%S"
 blog_title = "LimberDuck News"
 blog_path = "blog"
-blog_baseurl = "https://limberduck-org.readthedocs.io/en/latest/"
+blog_baseurl = "https://limberduck.org/en/latest/"
 blog_feed_archives = True
 blog_feed_fulltext = True
 

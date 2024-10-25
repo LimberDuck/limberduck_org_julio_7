@@ -56,6 +56,7 @@ Source [#]_ tool.
 
 .. image:: https://user-images.githubusercontent.com/9287709/57588063-d4b2f280-750e-11e9-9ba8-e2d301d38cbc.png
    :width: 600
+   :align: center
 
 Technology stack
 ----------------

@@ -8,7 +8,7 @@ Nessus Cheat Sheet
 .. image:: https://raw.githubusercontent.com/limberduck/nessus-cheat-sheet/gh-pages/nessus-cheat-sheet-10p.png
    :alt: Nessus Cheat Sheet thumbnail
    :width: 550px
-   :align: left
+   :align: center
    :target: https://limberduck.github.io/nessus-cheat-sheet/nessus-cheat-sheet.pdf
 
 .. grid:: 2 3 4 4

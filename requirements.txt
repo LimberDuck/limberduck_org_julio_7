@@ -1,3 +1,4 @@
+sphinx==7.4.7
 ablog @ git+https://github.com/sunpy/ablog.git@56dcf23d3f2fdbed62ee700bb1c6b2a4c0622be1
 shibuya==2024.10.15
 sphinx-copybutton==0.5.2

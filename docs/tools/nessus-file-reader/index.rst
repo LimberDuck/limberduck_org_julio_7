@@ -32,7 +32,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
          :outline:
          :tooltip: Check source code here
 
-         :octicon:`code;1em;sd-color-primary-text` source |nbsp| code
+         :octicon:`code;1em;sd-color-primary-text` source code
 
     .. grid-item::
 
@@ -41,7 +41,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
          :outline:
          :tooltip: Check release notes here
 
-         :octicon:`note;1em;sd-color-primary-text` |nbsp| release |nbsp| notes
+         :octicon:`note;1em;sd-color-primary-text` release notes
 
     .. grid-item::
 

@@ -20,7 +20,10 @@ report hosts names, the number of target hosts, the number of hosts scanned with
 credentialed checks, the number of reported plugins per Risk Factor, exact host scan 
 times, outputs of particular plugins and a lot more. It's free and Open Source [2]_ tool.
 
-.. grid:: 2 3 4 4
+.. |nbsp| unicode:: 0xA0 
+   :trim:
+
+.. grid:: 2 2 2 4
 
     .. grid-item::
 
@@ -29,7 +32,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
          :outline:
          :tooltip: Check source code here
 
-         :octicon:`code;1em;sd-color-primary-text` source code
+         :octicon:`code;1em;sd-color-primary-text` source |nbsp| code
 
     .. grid-item::
 
@@ -38,7 +41,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
          :outline:
          :tooltip: Check release notes here
 
-         :octicon:`note;1em;sd-color-primary-text` release notes
+         :octicon:`note;1em;sd-color-primary-text` |nbsp| release |nbsp| notes
 
     .. grid-item::
 

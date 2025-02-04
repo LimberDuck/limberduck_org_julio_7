@@ -4,8 +4,8 @@ FAQ
 ===
 
 
-Why nessus file analyzer returns error - has host bits set?
------------------------------------------------------------
+Why nessus file analyzer returns an error - has host bits set?
+--------------------------------------------------------------
 
 Take a look on the **example** line log:
 

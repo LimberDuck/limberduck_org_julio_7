@@ -4,10 +4,10 @@ FAQ
 ===
 
 
-Why nessus file analyzer returns an error - has host bits set?
---------------------------------------------------------------
+Why did the Nessus file analyzer return an error - has host bits set?
+---------------------------------------------------------------------
 
-Take a look on the **example** line log:
+Take a look at the **example** line log:
 
 .. code-block::
 
@@ -15,7 +15,7 @@ Take a look on the **example** line log:
     [2025-01-30 15:05:29.395186] [action=info] [source_file_name=192.168.11.0/23 has host bits set]
 
 
-The part “has host bits set” says that you have put into Nessus target field wrong target address - ``192.168.11.0/23`` :
+The part “has host bits set” says that you have put into the Nessus target field the wrong target address - ``192.168.11.0/23`` :
 
 .. code-block::
     :linenos:
@@ -31,7 +31,7 @@ The part “has host bits set” says that you have put into Nessus target field
     HostMax:   192.168.11.254        11000000.10101000.0000101 1.11111110
     Hosts/Net: 510                   (Private Internet)
 
-If your Netmask is ``/23`` and your network address is ``192.168.10.0`` and your goal was to scan the whole network you should put into Nessus target field - ``192.168.10.0/23`` :
+If your Netmask is ``/23`` and your network address is ``192.168.10.0`` and your goal is to scan the whole network, you should put into Nessus target field - ``192.168.10.0/23`` :
 
 .. code-block::
     :linenos:
@@ -47,7 +47,7 @@ If your Netmask is ``/23`` and your network address is ``192.168.10.0`` and your
     HostMax:   192.168.11.254        11000000.10101000.0000101 1.11111110
     Hosts/Net: 510                   (Private Internet)
 
-If your Netmask is ``/24`` and your goal was to scan the whole network you should put into Nessus target field - ``192.168.11.0/24`` :
+If your Netmask is ``/24`` and your goal was to scan the whole network, you should put into Nessus target field - ``192.168.11.0/24`` :
 
 .. code-block::
     :linenos:
@@ -63,14 +63,14 @@ If your Netmask is ``/24`` and your goal was to scan the whole network you shoul
     HostMax:   192.168.11.254        11000000.10101000.00001011 .11111110
     Hosts/Net: 254                   (Private Internet)
 
-If your goal was to scan only one IP address you should put into Nessus target field - ``192.168.11.0`` (without mask ``/23``).
+If you aimed to scan only one IP address, you should put it into the Nessus target field - ``192.168.11.0`` (without mask ``/23``).
 
 To pars data without issues:
 
-1. Set scan again with e.g.: ``192.168.10.0/23`` or ``192.168.11.0`` or ``192.168.11.0/24``. 
-2. Than try to pars your .nessus file again using nessus-file-analyzer.
+1. Set scan again with, e.g., ``192.168.10.0/23`` or ``192.168.11.0`` or ``192.168.11.0/24``. 
+2. Then try to pars your .nessus file again using nessus-file-analyzer.
 
 
 .. tip::
 
-    Use https://jodies.de/ipcalc to make sure that you use correct IP Address and Netmask.
+    Use https://jodies.de/ipcalc to make sure that you use correct the IP Address and Netmask.

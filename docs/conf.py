@@ -49,6 +49,7 @@ html_theme_options = {
     # "announcement": "The content of the announcement",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
+    "og_image_url" : "_static/img/limberduck-logo-bg.png",
     "nav_links": [
         {
             "title": "About",

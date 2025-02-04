@@ -132,6 +132,7 @@ Testimonials
    cheat-sheets/nessus-cheat-sheet/index
    glossary/index
    blog/index
+   faq/index
 
 
 .. |nfa_pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-analyzer?logo=PyPI&style=social   

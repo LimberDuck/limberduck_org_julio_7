@@ -12,7 +12,7 @@ nessus file reader (``nfr``)
    :target: .
 
 This is a |CLI| tool and python module which enables you to quickly parse nessus files containing the results 
-of scans performed by using *Nessus* or *Tenable.sc* by © Tenable, Inc. used
+of scans performed by using *Tenable Nessus* or *Tenable Security Center* by © Tenable, Inc. used
 for |VA| [1]_ process. This module will let you get data 
 through functions grouped into categories like file, scan, host, and plugin to get 
 specific information from the provided nessus scan files e.g. file size, report name, 

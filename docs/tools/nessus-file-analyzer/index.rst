@@ -12,7 +12,7 @@ nessus file analyzer (``nfa``)
    :target: .
 
 This is a |GUI| tool which enables you to parse multiple nessus files containing the 
-results of scans performed by using *Nessus* or *Tenable.sc* by © Tenable, Inc. used
+results of scans performed by using *Tenable Nessus* or *Tenable Security Center* by © Tenable, Inc. used
 for |VA| [1]_ process. Parsed scan results are exported to a 
 Microsoft Excel Workbook for effortless analysis. 
 

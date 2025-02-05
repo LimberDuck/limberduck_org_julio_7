@@ -133,6 +133,8 @@ rst_prolog =  """
 .. |RMB| replace:: :abbr:`RMB (Right Mouse Button)`
 .. |FQDN| replace:: :abbr:`FQDN (Fully Qualified Domain Name)`
 .. |IP| replace:: :abbr:`IP (Intrnet Protocol Address)`
+.. |API| replace:: :abbr:`API (Application Programming Interface)`
+.. |CSV| replace:: :abbr:`CSV (Comma-separated values)`
 
 .. Security:
 .. |CVE| replace:: :abbr:`CVE (Common Vulnerabilities and Exposures)`

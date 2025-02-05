@@ -17,6 +17,13 @@ Once you have Converter CSV installed you can run it in Terminal with command:
     you can do it with the command ``workon <name_of_your_virtualenvironment>``. 
     To exit your Python virtual environment, use the command ``deactivate``.
 
+.. tip::
+    
+    Optionally for Linux and macOS run with ``&`` at the end to start the process in the background.
+    
+    .. code-block:: shell
+        
+        converter-csv&
 
 Make a shortcut to **Converter CSV** to run it even faster.
 

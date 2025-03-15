@@ -68,6 +68,21 @@ html_theme_options = {
                     "url": "tools/nessus-file-analyzer/index",
                     "summary": "GUI tool",
                 },
+                {
+                    "title": "Converter CSV",
+                    "url": "tools/converter-csv/index",
+                    "summary": "GUI tool",
+                },
+                {
+                    "title": "TNSCM",
+                    "url": "tools/tnscm/index",
+                    "summary": "CLI tool",
+                },
+                {
+                    "title": "TSCCM",
+                    "url": "tools/tsccm/index",
+                    "summary": "CLI tool",
+                },
             ]
         },
         {
@@ -77,6 +92,10 @@ html_theme_options = {
         {
             "title": "News",
             "url": "blog/index",
+        },
+        {
+            "title": "FAQ",
+            "url": "faq/index",
         },
     ]
 

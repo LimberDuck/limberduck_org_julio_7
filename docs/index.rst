@@ -30,8 +30,8 @@ LimberDuck
       
       |nfr_pypi_downloads| |nfr_stars_from_users|
 
-      |CLI| tool and python module which enables you to parse nessus files 
-      with |VA| scan results performed using Tenable Nessus ® by Tenable, Inc.
+      CLI tool and python module which enables you to parse nessus files 
+      with VA scan results performed using Tenable Nessus ® by Tenable, Inc.
 
 
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (``nfa``)
@@ -39,42 +39,42 @@ LimberDuck
 
       |nfa_pypi_downloads| |nfa_stars_from_users|
       
-      |GUI| tool which enables you to analyze nessus files 
-      with |VA| scan results performed using Tenable Nessus ® by Tenable, Inc.
+      GUI tool which enables you to analyze nessus files 
+      with VA scan results performed using Tenable Nessus ® by Tenable, Inc.
 
     .. grid-item-card:: :octicon:`browser` Converter CSV
       :link: tools/converter-csv/
 
       |converter_csv_pypi_downloads| |converter_csv_stars_from_users|
       
-      |GUI| tool which enables you to convert multiple, large |csv| files to |xlsx| files.
+      GUI tool which enables you to convert multiple, large csv files to xlsx files.
 
     .. grid-item-card:: :octicon:`terminal` TNSCM
       :link: tools/tnscm/
       
       |tnscm_pypi_downloads| |tnscm_stars_from_users|
 
-      |CLI| tool which enables you to manage 
-      Tenable Nessus ® by Tenable, Inc. via |API|.
+      CLI tool which enables you to manage 
+      Tenable Nessus ® by Tenable, Inc. via API.
 
     .. grid-item-card:: :octicon:`terminal` TSCCM
       :link: tools/tsccm/
       
       |tsccm_pypi_downloads| |tsccm_stars_from_users|
 
-      |CLI| tool which enables you to manage 
-      Tenable Security Center ® by Tenable, Inc. via |API|.
+      CLI tool which enables you to manage 
+      Tenable Security Center ® by Tenable, Inc. via API.
 
     .. grid-item-card:: :octicon:`rocket` and more...
 
 ..  .. grid-item-card:: :octicon:`terminal` ``tnscm`` (Tenable Nessus CLI Manager)
 
-..    |CLI| tool which enables you to perform actions on Tenable Nessus 
+..    CLI tool which enables you to perform actions on Tenable Nessus 
 ..    by (C) Tenable, Inc. via API.
 
 ..  .. grid-item-card:: :octicon:`terminal` ``tsccm`` (Tenable Security Center CLI Manager)
 
-..    |CLI| tool which enables you to perform actions on Tenable Security Center 
+..    CLI tool which enables you to perform actions on Tenable Security Center 
 ..    by (C) Tenable, Inc. via API.
 
 

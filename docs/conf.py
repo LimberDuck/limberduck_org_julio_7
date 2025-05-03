@@ -38,7 +38,7 @@ html_theme = "shibuya"
 html_static_path = ['_static']
 
 html_title = "LimberDuck"
-html_baseurl = "https://limberduck.org/"
+html_baseurl = "https://limberduck.org/en/latests"
 sitemap_url_scheme = "{link}"
 
 html_logo = "_static/img/LimberDuck-logo.png"
@@ -46,7 +46,7 @@ html_logo = "_static/img/LimberDuck-logo.png"
 html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
-    # "announcement": "The content of the announcement",
+    "announcement": "Split large Nessus files with nessus file reader (nfr) v0.5.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "og_image_url" : "_static/img/limberduck-logo-bg.png",

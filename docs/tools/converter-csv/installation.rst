@@ -1,7 +1,8 @@
 :description: Installation instruction for Converter CSV.
 
+############
 Installation
-============
+############
 
 .. note::
 
@@ -18,10 +19,11 @@ Install **Converter CSV**
     pip install converter-csv
 
 
-.. note::
+Upgrade
+#######
     
-    To upgrade to newer version run:
+To upgrade to newer version run:
 
-    .. code-block:: shell
-        
-        pip install -U converter-csv
+.. code-block:: shell
+    
+    pip install --upgrade converter-csv

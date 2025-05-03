@@ -17,10 +17,11 @@ Install **nessus file analyzer** (``nfa``)
 
     pip install nessus-file-analyzer
 
-.. note::
+Upgrade
+#######
     
-    To upgrade to newer version run:
+To upgrade to newer version run:
 
-    .. code-block:: shell
-        
-        pip install -U nessus-file-analyzer
+.. code-block:: shell
+    
+    pip install --upgrade nessus-file-analyzer

@@ -1,4 +1,4 @@
-:description: News (test)
+:description: Latest LimberDuck News
 
 News
 ====
@@ -11,8 +11,3 @@ News
    :format: {date} - {title}
    :list-style: circle
 
-.. toctree::
-   :hidden:
-   :glob:
-
-   *

@@ -1,7 +1,8 @@
 :description: Installation instruction for nessus file reader (nfr).
 
+############
 Installation
-============
+############
 
 .. note::
 
@@ -17,11 +18,13 @@ Install **nessus file reader** (``nfr``)
     
     pip install nessus-file-reader
 
+.. _nfr-upgrade:
 
-.. note::
+Upgrade
+#######
     
-    To upgrade to newer version run:
+To upgrade to newer version run:
 
-    .. code-block:: shell
-        
-        pip install -U nessus-file-reader
+.. code-block:: shell
+    
+    pip install --upgrade nessus-file-reader

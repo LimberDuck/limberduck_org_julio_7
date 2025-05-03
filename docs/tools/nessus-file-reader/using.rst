@@ -1,17 +1,26 @@
 :description: Using instruction for nessus file reader (nfr).
 
+#####
 Using
-=====
+#####
+
+``nfr --help``
+==============
 
 Check help for **nessus file reader** (``nfr``) commands using ``nfr [command] --help``.
 
-File command
-------------
+``nfr file``
+============
+
+``nfr file --help``
+-------------------
 
 Run ``nfr file --help`` to see options related to nessus file.
 
-File size
-.........
+.. _nfr-file-size:
+
+``nfr file --size``
+-------------------
 
 Check size of given file:
 
@@ -43,8 +52,8 @@ Check size of all files in given directory and it's subdirectories:
    test_files/test_subdirectory/scan_ihc1js.nessus 878.3 KiB
 
 
-File structure
-..............
+``nfr file --structure``
+------------------------
 
 Check structure of given file:
 
@@ -115,13 +124,93 @@ Check structure of given file:
 
    Check whole example structure `scan_avrx9t_structure.txt <https://github.com/LimberDuck/nessus-file-reader/blob/master/examples/scan_avrx9t_structure.txt>`_.
 
-Scan command
-------------
+
+.. _nfr-file-split:
+
+``nfr file --split``
+--------------------
+
+.. versionadded:: v0.5.0
+
+   Splitting the file with Nessus scan results into smaller files.
+   :ref:`nfr-upgrade` now!
+
+This feature is useful when a file with Nessus scan results is too big for later processing. Thanks to this feature, you can split it into smaller files with a maximum number of scanned hosts (SH) in each file.
+
+.. caution::
+   This command changes the structure of the file with Nessus scan results. Before you proceed:
+      1. **Make a copy of the original file!**
+      2. To double-check, compare output files with the original file, e.g., using Visual Studio Code, see `here <https://code.visualstudio.com/docs/editing/codebasics#_compare-files>`_.
+      3. Read this instruction carefully.
+
+As a first step you need to check the file size and number of scanned hosts (SH) in it.
+You can do it with the following commands:
+
+1. Check the file size with the command :ref:`nfr-file-size`, e.g., ``nfr file --size scan1.nessus``.
+2. Check the number of scanned hosts (SH) with the command :ref:`nfr-scan-scan-summary`, e.g., ``nfr scan --scan-summary scan1.nessus``. 
+
+Then you need to provide to LimberDuck nessus file reader (``nfr``) as an input:
+
+1. Maximum number of ``ReportHosts`` that you want to have in target files, e.g., ``--split 100`` will split the file into smaller files with a maximum number of 100 ``ReportHosts`` in each file.
+2. File(s) or directory(ies) with Nessus scan results.
+
+.. code-block:: shell
+   :caption: Example of splitting a file with Nessus scan results into smaller files.
+   :emphasize-lines: 4-6,8,10-12
+   :name: nfr-file-split-example
+
+   nfr file --split 100 ./directory ./directory2
+   nessus file reader by LimberDuck 0.5.0
+   ./directory/192_168_8_0_24_3mf2o4.nessus
+   ./directory/192_168_8_0_24_3mf2o4_part1.nessus
+   ./directory/192_168_8_0_24_3mf2o4_part2.nessus
+   ./directory/192_168_8_0_24_3mf2o4_part3.nessus
+   ./directory/subdirectory/My_Advanced_Scan_for_192_168_8_0_24_rg2ny9.nessus
+   ./directory/subdirectory/My_Advanced_Scan_for_192_168_8_0_24_rg2ny9_part1.nessus
+   ./directory2/192_168_8_0_24_3mf2o4.nessus
+   ./directory2/192_168_8_0_24_3mf2o4_part1.nessus
+   ./directory2/192_168_8_0_24_3mf2o4_part2.nessus
+   ./directory2/192_168_8_0_24_3mf2o4_part3.nessus
+
+.. tip::
+   Run :ref:`nfr-file-size` and :ref:`nfr-scan-scan-summary` commands to quickly check the size and number of hosts in every new file, e.g.:
+
+   ``nfr file --size ./directory ./directory2``
+
+   ``nfr scan --scan-summary ./directory ./directory2``
+
+Note that the general file structure doesn't change (marked in blue in the diagram below). All new output files will contain the same general file structure. Affected section is ``<ReportHost> </ReportHost>`` within ``<Report> </Report>`` section. 
+
+1. A first new file will contain the first two hosts ``<ReportHost> </ReportHost>`` from the source file (marked in green in the diagram above).
+2. A second new file will contain third and fourth hosts ``<ReportHost> </ReportHost>`` from the source file (marked in red in the diagram above).
+3. A third new file will contain the fifth host ``<ReportHost> </ReportHost>`` from the source file (marked in orange in the diagram above).
+
+.. figure:: ../../_static/img/limberduck-nfr-split.svg
+    :alt: Diagram explaining splitting process with LimberDuck nessus file reader (nfr).
+    :align: center
+
+    Diagram explaining the splitting process with LimberDuck nessus file reader (``nfr``).
+
+
+
+.. warning::
+   ``<Policy> </Policy>`` section remains the same in all new output files. It means that the ``TARGET`` specified to scan, e.g., 100 hosts, will be visible in every new file even if you split source file per 20 hosts in ``<Report> </Report>`` section.
+
+
+``nfr scan``
+============
+
+
+``nfr scan --help``
+-------------------
 
 Run ``nfr scan --help`` to see options related to content of nessus file on scan level.
 
-Scan summary
-............
+
+.. _nfr-scan-scan-summary:
+
+``nfr scan --scan-summary``
+---------------------------
 
 See scan summary of given file/-s or all files in given directory and it's subdirectories:
 
@@ -151,8 +240,8 @@ See scan summary of given file/-s or all files in given directory and it's subdi
    N - number of plugins with None risk factor for whole scan
 
 
-Policy scan summary
-...................
+``nfr scan --policy-summary``
+-----------------------------
 
 See policy scan summary of given file/-s or all files in given directory and it's subdirectories:
 
@@ -167,8 +256,8 @@ See policy scan summary of given file/-s or all files in given directory and it'
 
 
 
-Scan file source
-................
+``nfr scan --scan-file-source``
+-------------------------------
 
 See scan file source like Nessus, Tenable.sc, Tenable.io of given file/-s or all files in given directory and it's subdirectories:
 

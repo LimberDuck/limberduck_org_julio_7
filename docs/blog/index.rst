@@ -11,3 +11,8 @@ News
    :format: {date} - {title}
    :list-style: circle
 
+.. toctree::
+   :hidden:
+   :glob:
+
+   *

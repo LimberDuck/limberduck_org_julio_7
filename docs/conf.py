@@ -86,16 +86,16 @@ html_theme_options = {
             ]
         },
         {
-            "title": "Contact",
-            "url": "contact/index",
-        },
-        {
             "title": "News",
             "url": "blog/index",
         },
         {
             "title": "FAQ",
             "url": "faq/index",
+        },
+        {
+            "title": "Contact",
+            "url": "contact/index",
         },
     ]
 

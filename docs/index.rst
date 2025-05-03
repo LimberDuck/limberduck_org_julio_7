@@ -158,6 +158,7 @@ Testimonials
    glossary/index
    blog/index
    faq/index
+   contact/index
 
 
 .. |nfa_pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-analyzer?logo=PyPI&style=social   

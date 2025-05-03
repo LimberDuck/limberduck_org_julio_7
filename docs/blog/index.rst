@@ -3,7 +3,12 @@
 News
 ====
 
-`LimberDuck News (RSS) <https://limberduck.org/en/latest/blog/atom.xml>`_
+.. button-link:: https://limberduck.org/en/latest/blog/atom.xml
+    :color: primary
+    :align: center
+    :shadow:
+
+    Subscribe via RSS :octicon:`rss;1em;sd-text-white`
 
 .. postlist::
    :language: en

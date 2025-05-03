@@ -3,13 +3,21 @@
 FAQ
 ===
 
+Can LimberDuck tools split .nessus files?
+-----------------------------------------
+Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader** (``nfr``) has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
 
-Why did the Nessus file analyzer return an error - has host bits set?
----------------------------------------------------------------------
+Check out the new feature in the documentation: :ref:`nfr-file-split`.
+
+
+Why did the nessus file analyzer (nfa) return an error - has host bits set?
+---------------------------------------------------------------------------
 
 Take a look at the **example** line log:
 
 .. code-block::
+    :caption: Example "has host bits set" error for address 192.168.11.0/23 
+    :name: error-example-192-168-11-0-23
 
     [2025-01-30 15:05:29.395186] [action=info] [source_file_name=ERROR Parsing [1/1] nessus files]
     [2025-01-30 15:05:29.395186] [action=info] [source_file_name=192.168.11.0/23 has host bits set]
@@ -20,6 +28,8 @@ The part “has host bits set” says that you have put into the Nessus target f
 .. code-block::
     :linenos:
     :emphasize-lines: 1,2
+    :caption: IP Calculator output for address 192.168.11.0/23
+    :name: ipcalc-192-168-11-0-23
 
     Address:   192.168.11.0          11000000.10101000.0000101 1.00000000
     Netmask:   255.255.254.0 = 23    11111111.11111111.1111111 0.00000000
@@ -36,6 +46,8 @@ If your Netmask is ``/23`` and your network address is ``192.168.10.0`` and your
 .. code-block::
     :linenos:
     :emphasize-lines: 1,2
+    :caption: IP Calculator output for address 192.168.10.0/23
+    :name: ipcalc-192-168-10-0-23
 
     Address:   192.168.10.0          11000000.10101000.0000101 0.00000000
     Netmask:   255.255.254.0 = 23    11111111.11111111.1111111 0.00000000
@@ -52,6 +64,8 @@ If your Netmask is ``/24`` and your goal was to scan the whole network, you shou
 .. code-block::
     :linenos:
     :emphasize-lines: 1,2
+    :caption: IP Calculator output for address 192.168.11.0/24
+    :name: ipcalc-192-168-11-0-24
 
     Address:   192.168.11.0          11000000.10101000.00001011 .00000000
     Netmask:   255.255.255.0 = 24    11111111.11111111.11111111 .00000000

@@ -1,7 +1,7 @@
 :description: CLI tool and python module which enables you to parse nessus files.
 
-nessus file reader (``nfr``)
-============================
+nessus file reader (NFR)
+========================
 
 |pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
@@ -74,11 +74,11 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
 ..     * - changelog
 ..       - https://github.com/LimberDuck/nessus-file-reader/blob/master/CHANGELOG.md
 
-.. figure:: https://user-images.githubusercontent.com/9287709/222918443-5c88c441-e7b7-4298-93a2-a730fd8ff081.png
+.. figure:: ../../_static/img/nfr.png
    :width: 600
    :align: center
 
-   **nessus file reader** (``nfr``) |CLI| running in Terminal
+   **nessus file reader (NFR)** as Python module and |CLI| running in Terminal
 
 Technology stack
 ----------------
@@ -97,7 +97,7 @@ Stargazers over time
     :alt: Stargazers over time
     :align: center
 
-    Nessus file reader (``nfr``) GitHub repository stars over time.
+    **nessus file reader (NFR)** GitHub repository stars over time.
 
 .. Instructions
 .. ------------

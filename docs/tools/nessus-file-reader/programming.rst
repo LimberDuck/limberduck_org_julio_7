@@ -4,7 +4,7 @@ Programming
 ===========
 
 If command-line tool interface is not enough for you or you want to build 
-your own solution you can use **nessus file reader** (``nfr``) as a python module:
+your own solution you can use **nessus file reader (NFR)** as a python module:
 
 Import `nessus-file-reader` module.
    

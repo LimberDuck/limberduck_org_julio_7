@@ -25,7 +25,7 @@ LimberDuck
     :padding: 0
     :class-row: surface
 
-    .. grid-item-card:: :octicon:`terminal` nessus file reader (``nfr``)
+    .. grid-item-card:: :octicon:`terminal` nessus file reader (NFR)
       :link: tools/nessus-file-reader/
       
       |nfr_pypi_downloads| |nfr_stars_from_users|
@@ -34,7 +34,7 @@ LimberDuck
       with VA scan results performed using Tenable Nessus ® by Tenable, Inc.
 
 
-    .. grid-item-card:: :octicon:`browser` nessus file analyzer (``nfa``)
+    .. grid-item-card:: :octicon:`browser` nessus file analyzer (NFA)
       :link: tools/nessus-file-analyzer/
 
       |nfa_pypi_downloads| |nfa_stars_from_users|

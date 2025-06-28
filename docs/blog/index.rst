@@ -20,4 +20,6 @@ News
    :hidden:
    :glob:
 
-   *
+   compare-plugin-severity
+   split-large-nessus-files
+   new-website-look

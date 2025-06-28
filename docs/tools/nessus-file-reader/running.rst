@@ -3,7 +3,7 @@
 Running
 =======
 
-Once you have **nessus file reader** (``nfr``) installed you can run it in Terminal with command:
+Once you have **nessus file reader (NFR)** installed you can run it in Terminal with command:
 
 .. code-block:: shell
 

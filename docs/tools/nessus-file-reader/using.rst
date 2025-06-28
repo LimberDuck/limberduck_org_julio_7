@@ -7,7 +7,7 @@ Using
 ``nfr --help``
 ==============
 
-Check help for **nessus file reader** (``nfr``) commands using ``nfr [command] --help``.
+Check help for **nessus file reader (NFR)** commands using ``nfr [command] --help``.
 
 ``nfr file``
 ============
@@ -149,7 +149,7 @@ You can do it with the following commands:
 1. Check the file size with the command :ref:`nfr-file-size`, e.g., ``nfr file --size scan1.nessus``.
 2. Check the number of scanned hosts (SH) with the command :ref:`nfr-scan-scan-summary`, e.g., ``nfr scan --scan-summary scan1.nessus``. 
 
-Then you need to provide to LimberDuck nessus file reader (``nfr``) as an input:
+Then you need to provide to **LimberDuck nessus file reader (NFR)** as an input:
 
 1. Maximum number of ``ReportHosts`` that you want to have in target files, e.g., ``--split 100`` will split the file into smaller files with a maximum number of 100 ``ReportHosts`` in each file.
 2. File(s) or directory(ies) with Nessus scan results.
@@ -186,10 +186,10 @@ Note that the general file structure doesn't change (marked in blue in the diagr
 3. A third new file will contain the fifth host ``<ReportHost> </ReportHost>`` from the source file (marked in orange in the diagram above).
 
 .. figure:: ../../_static/img/limberduck-nfr-split.svg
-    :alt: Diagram explaining splitting process with LimberDuck nessus file reader (nfr).
+    :alt: Diagram explaining splitting process with LimberDuck nessus file reader (NFR).
     :align: center
 
-    Diagram explaining the splitting process with LimberDuck nessus file reader (``nfr``).
+    Diagram explaining the splitting process with LimberDuck nessus file reader (NFR).
 
 
 
@@ -222,6 +222,11 @@ See scan summary of given file/-s or all files in given directory and it's subdi
    ------------------  ------------  ----  ----  ----  ---  ---  ---  ---  ---
    scan_avrx9t.nessus  test scan        1     1     1   48  182  126   15   38
 
+``nfr scan --scan-summary-legend``
+----------------------------------
+
+See description of columns returned in ``nfr scan --scan-summary``.
+
 
 .. code-block:: shell
 
@@ -239,6 +244,140 @@ See scan summary of given file/-s or all files in given directory and it's subdi
    L - number of plugins with Low risk factor for whole scan
    N - number of plugins with None risk factor for whole scan
 
+.. _nfr-scan-plugin-severity:
+
+``nfr scan --plugin-severity``
+------------------------------
+
+.. versionadded:: v0.6.0
+
+   Compare severity assigned to plugins.
+   :ref:`nfr-upgrade` now!
+
+Compare severity scores assigned to plugin like Severity, Risk Factor, |CVSSv2|, |CVSSv3|, |CVSSv4|, |VPR|, |EPSS|. 
+Just point the name or path to nessus file with scan results.
+
+.. code-block:: shell
+
+   nfr scan --plugin-severity 192_168_1_1_1022nb.nessus 
+   nessus file reader (NFR) by LimberDuck 0.6.0
+   File name                  Report host name       PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
+   -------------------------  ------------------  ------  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
+   192_168_1_1_1022nb.nessus  192.168.1.10         12217    2  Medium  Medium       5    Medium          5.3  Medium
+   192_168_1_1_1022nb.nessus  192.168.1.10         42263    2  Medium  Medium       5.8  Medium          6.5  Medium
+   192_168_1_1_1022nb.nessus  192.168.1.10         50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+   192_168_1_1_1022nb.nessus  192.168.1.10         10114    1  Low     Low          2.1  Low                                                    2.2  Low     0.0037  0.4%
+   192_168_1_1_1022nb.nessus  192.168.1.10         10663    1  Low     Low          3.3  Low
+   192_168_1_1_1022nb.nessus  192.168.1.10         70658    1  Low     Low          2.6  Low             3.7  Low                               1.4  Low     0.0307  3.1%
+   192_168_1_1_1022nb.nessus  192.168.1.10         71049    1  Low     Low          2.6  Low
+   192_168_1_1_1022nb.nessus  192.168.1.10        153953    1  Low     Low          2.6  Low             3.7  Low
+   192_168_1_1_1022nb.nessus  192.168.1.10         10107    0  Info    None
+   192_168_1_1_1022nb.nessus  192.168.1.10         10267    0  Info    None
+
+Use ``-f`` or ``--filter`` to check only one Plugin ID among all scan results. Read more about `JMESPath <https://jmespath.org>`_.
+
+.. code-block:: shell
+
+   nfr scan --plugin-severity *.nessus -f "[?PID == '50686']"
+   nessus file reader (NFR) by LimberDuck 0.6.0
+   File name                          Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
+   ---------------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
+   192_168_1_1_1022nb-1.nessus          192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+   192_168_1_1_1022nb-2.nessus          192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+
+
+Use ``-f`` or ``--filter`` to check only these plugins which have |VPR| assigned. Read more about `JMESPath <https://jmespath.org>`_.
+
+.. code-block:: shell
+
+   nfr scan --plugin-severity 192_168_1_1_1022nb.nessus -f "[?VPR != null]"   
+   nessus file reader (NFR) by LimberDuck 0.6.0
+   File name                  Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
+   -------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
+   192_168_1_1_1022nb.nessus  192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+   192_168_1_1_1022nb.nessus  192.168.1.10        10114    1  Low     Low          2.1  Low                                                    2.2  Low     0.0037  0.4%
+   192_168_1_1_1022nb.nessus  192.168.1.10        70658    1  Low     Low          2.6  Low             3.7  Low                               1.4  Low     0.0307  3.1%
+
+
+Use ``-f`` or ``--filter`` to check only these plugins which have, e.g., |CVSSv3| score greater than ``4.0``. Read more about `JMESPath <https://jmespath.org>`_.
+
+.. code-block:: shell
+
+   nfr scan --plugin-severity 192_168_1_1_1022nb.nessus -f "[?CVSSv3 > '4.0']"
+   nessus file reader (NFR) by LimberDuck 0.6.0
+   File name                  Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
+   -------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
+   192_168_1_1_1022nb.nessus  192.168.1.10        12217    2  Medium  Medium       5    Medium          5.3  Medium
+   192_168_1_1_1022nb.nessus  192.168.1.10        42263    2  Medium  Medium       5.8  Medium          6.5  Medium
+   192_168_1_1_1022nb.nessus  192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+
+
+``nfr scan --plugin-severity-legend``
+-------------------------------------
+
+.. versionadded:: v0.6.0
+
+   Check legend for columns returned in ``nfr scan --plugin-severity``.
+   :ref:`nfr-upgrade` now!
+
+See description of columns returned in ``nfr scan --plugin-severity``.
+
+.. code-block:: shell
+
+   nfr scan --plugin-severity-legend                         
+   nessus file reader (NFR) by LimberDuck 0.6.0
+   Legend for plugin severity:
+   File name - nessus file name
+   Report host name - target name used during scan
+   PID - Plugin ID reported in scan
+   S - Severity number (0-4) of plugin
+   SL - Severity label of plugin (e.g. Critical, High, Medium, Low, None)
+   RF - Risk factor of plugin (e.g. Critical, High, Medium, Low, None)
+   CVSSv2 - CVSSv2 base score of plugin
+   CVSSv2L - CVSSv2 base score label of plugin
+   CVSSv3 - CVSSv3 base score of plugin
+   CVSSv3L - CVSSv3 base score label of plugin
+   CVSSv4 - CVSSv4 base score of plugin
+   CVSSv4L - CVSSv4 base score label of plugin
+   VPR - Vulnerability Priority Rating score of plugin
+   VPRL - Vulnerability Priority Rating label of plugin
+   EPSS - Exploit Prediction Scoring System score of plugin
+   EPSS% - Exploit Prediction Scoring System score of plugin in percentage
+
+
+``nfr scan --filter``
+---------------------
+
+.. versionadded:: v0.6.0
+
+   Filter data returned by ``--plugin-severity`` to specific values.
+   :ref:`nfr-upgrade` now!
+
+Use ``-f`` or ``--filter`` to filter data returned by ``--plugin-severity`` to specific values. 
+Read about `JMESPath <https://jmespath.org>`_.
+
+Example filters:
+
+.. code-block:: shell
+   :caption: Filter plugins with Plugin ID equal to ``50686``.
+
+   "[?PID == '50686']"
+
+
+.. code-block:: shell
+   :caption: Filter plugins which have |VPR| assigned.
+
+   "[?VPR != null]"
+
+.. code-block:: shell
+   :caption: Filter plugins with |CVSSv3| score greater than ``4.0``.
+
+   "[?CVSSv3 > '4.0']"
+
+.. code-block:: shell
+   :caption: Filter plugins with |CVSSv3| score greater than ``3.8`` and |VPR| score greater than ``4.0``.
+
+   "[?CVSSv3 > '3.8' && VPR > '4.0']"
 
 ``nfr scan --policy-summary``
 -----------------------------

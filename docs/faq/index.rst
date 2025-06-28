@@ -5,7 +5,7 @@ FAQ
 
 Can LimberDuck tools split .nessus files?
 -----------------------------------------
-Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader** (``nfr``) has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
+Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader (NFR)** has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
 
 Check out the new feature in the documentation: :ref:`nfr-file-split`.
 

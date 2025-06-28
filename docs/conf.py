@@ -46,7 +46,7 @@ html_logo = "_static/img/LimberDuck-logo.png"
 html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
-    "announcement": "Split large Nessus files with nessus file reader (nfr) v0.5.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
+    "announcement": "Compare plugin severity with nessus file reader (NFR) v0.6.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "og_image_url" : "_static/img/limberduck-logo-bg.png",
@@ -136,6 +136,7 @@ rst_prolog =  """
 .. |csv| replace:: :abbr:`csv (comma-separated value)`
 .. |xlsx| replace:: :abbr:`xlsx (Microsoft Excel Open XML Spreadsheet)`
 .. |VA| replace:: :abbr:`VA (Vulnerability Assessment)`
+.. |TLDR| replace:: :abbr:`TLDR (Too Long; Didn't Read.)`
 
 .. nessus-file-analyzer:
 .. |nfa| replace:: :abbr:`nfa (nessus-file-analyzer by Limberduck)`
@@ -157,5 +158,11 @@ rst_prolog =  """
 
 .. Security:
 .. |CVE| replace:: :abbr:`CVE (Common Vulnerabilities and Exposures)`
+.. |VPR| replace:: :abbr:`VPR (Vulnerability Priority Rating)`
+.. |EPSS| replace:: :abbr:`EPSS (Exploit Prediction Scoring System)`
+.. |CVSS| replace:: :abbr:`CVSS (Common Vulnerability Scoring System)`
+.. |CVSSv2| replace:: :abbr:`CVSSv2 (Common Vulnerability Scoring System version 2)`
+.. |CVSSv3| replace:: :abbr:`CVSSv3 (Common Vulnerability Scoring System version 3)`
+.. |CVSSv4| replace:: :abbr:`CVSSv4 (Common Vulnerability Scoring System version 4)`
 
 """

@@ -12,7 +12,7 @@ Installation
     | `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io>`_ provides a set of commands which makes working with virtual environments much more pleasant.
 
 
-Install **nessus file reader** (``nfr``)
+Install **nessus file reader (NFR)**
     
 .. code-block:: shell
     

@@ -8,20 +8,20 @@ Using
 Open nessus files
 *****************
 
-You have a few possibilities to open your nessus files in **nessus file analyzer** (``nfa``).
+You have a few possibilities to open your nessus files in **nessus file analyzer (NFA)**.
 
 .. versionadded:: v0.5.0
    You can open nessus files from inside a ZIP archive. You don't need to unzip nessus files anymore.
 
 **OPTION 1** - by opening file\\-s
 
-1. Open **nessus file analyzer** (``nfa``).
+1. Open **nessus file analyzer (NFA)**.
 2. Go to Menu *File*.
 3. Choose *Open file\\-s* if you want to open one or more nessus files at once.
 
 **OPTION 2** - by opening directory
 
-1. Open **nessus file analyzer** (``nfa``).
+1. Open **nessus file analyzer (NFA)**.
 2. Go to Menu *File*.
 3. Choose *Open directory* if you want to open all nessus files from selected directory and its subdirectories.
 
@@ -29,17 +29,17 @@ You have a few possibilities to open your nessus files in **nessus file analyzer
 
 1. On |OS| level select one or more nessus files in your |OS| file browser.
 2. Click |RMB| on selected file\\-s and choose from contextual menu option *Open with...*.
-3. Choose **nessus file analyzer** (``nfa``) to open selected file\\-s.
+3. Choose **nessus file analyzer (NFA)** to open selected file\\-s.
 
 **OPTION 4** - by file\\-s Drag & Drop
 
 1. On |OS| level select one or more nessus files in your |OS| file browser.
-2. Simple drag and drop selected file\\-s on **nessus file analyzer** (``nfa``) window.
+2. Simple drag and drop selected file\\-s on **nessus file analyzer (NFA)** window.
 
 **OPTION 5** - by directory Drag & Drop
 
 1. On |OS| level select one or more directories containing nessus files in your |OS| file browser. 
-2. Simple drag and drop selected directory or directories on **nessus file analyzer** (``nfa``) window.
+2. Simple drag and drop selected directory or directories on **nessus file analyzer (NFA)** window.
 
 ******************
 Select report type
@@ -79,7 +79,7 @@ Select one or more report types: scan, host, vulnerabilities, noncompliance.
 Configure
 *********
 
-Configure **nessus file analyzer** (``nfa``) to fit target file to your exact needs.
+Configure **nessus file analyzer (NFA)** to fit target file to your exact needs.
 
 .. seealso::
     Check :doc:`settings` to get more details.

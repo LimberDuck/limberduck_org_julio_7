@@ -11,7 +11,7 @@ Installation
     | Read about `virtualenvwrapper in The Hitchhiker’s Guide to Python! <https://docs.python-guide.org/dev/virtualenvs/#virtualenvwrapper>`_: 
     | `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io>`_ provides a set of commands which makes working with virtual environments much more pleasant.
 
-Install **nessus file analyzer** (``nfa``)
+Install **nessus file analyzer (NFA)**
 
 .. code-block:: shell
 

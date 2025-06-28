@@ -7,7 +7,7 @@ Building
 .. note::
    This step is optional.
    
-You can build an executable file for **nessus file analyzer** (``nfa``).
+You can build an executable file for **nessus file analyzer (NFA)**.
 
 .. tabs::
 

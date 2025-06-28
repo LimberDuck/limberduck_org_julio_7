@@ -1,7 +1,7 @@
 :description: GUI tool which enables you to analyze nessus files.
 
-nessus file analyzer (``nfa``)
-==============================
+nessus file analyzer (NFA)
+==========================
 
 |pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
 
@@ -93,7 +93,7 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
    :width: 600
    :align: center
 
-   **nessus file analyzer** (``nfa``) main window running on Ubuntu, Windows and macOS. 
+   **nessus file analyzer (NFA)** main window running on Ubuntu, Windows and macOS. 
 
 Technology stack
 ----------------
@@ -152,7 +152,7 @@ Stargazers over time
     :alt: Stargazers over time
     :align: center
 
-    Nessus file analyzer (``nfa``) GitHub repository stars over time.
+    **nessus file analyzer (NFA)** GitHub repository stars over time.
 
 
 ----

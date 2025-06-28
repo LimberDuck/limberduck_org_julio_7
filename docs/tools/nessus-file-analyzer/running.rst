@@ -4,7 +4,7 @@
 Running
 #######
 
-Once you have **nessus file analyzer** (``nfa``) installed you can run it in Terminal with command:
+Once you have **nessus file analyzer (NFA)** installed you can run it in Terminal with command:
 
 .. code-block:: shell
 
@@ -26,7 +26,7 @@ Once you have **nessus file analyzer** (``nfa``) installed you can run it in Ter
         
         nessus-file-analyzer&
 
-Make a shortcut to **nessus file analyzer** (``nfa``) to run it even faster.
+Make a shortcut to **nessus file analyzer (NFA)** to run it even faster.
 
 .. tabs::
 
@@ -60,7 +60,7 @@ Make a shortcut to **nessus file analyzer** (``nfa``) to run it even faster.
 
    .. error::
    
-       If you have installed **nessus file analyzer** (``nfa``) on Ubuntu without 
+       If you have installed **nessus file analyzer (NFA)** on Ubuntu without 
        python virtual environment, and see below error:
    
        .. code-block:: shell
@@ -80,7 +80,7 @@ Make a shortcut to **nessus file analyzer** (``nfa``) to run it even faster.
 
    .. error::
 
-       If you run **nessus file analyzer** (``nfa``) and see below error:
+       If you run **nessus file analyzer (NFA)** and see below error:
    
        .. code-block:: shell
    

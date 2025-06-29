@@ -89,7 +89,7 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
 
 
 
-.. figure:: https://user-images.githubusercontent.com/9287709/59981677-5fefcf80-9607-11e9-89aa-35e5649e1c7a.png
+.. figure:: ../../_static/img/nfa.png
    :width: 600
    :align: center
 

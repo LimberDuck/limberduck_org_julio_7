@@ -282,8 +282,8 @@ Use ``-f`` or ``--filter`` to check only one Plugin ID among all scan results. R
    nessus file reader (NFR) by LimberDuck 0.6.0
    File name                          Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
    ---------------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
-   192_168_1_1_1022nb-1.nessus          192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
-   192_168_1_1_1022nb-2.nessus          192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+   192_168_1_1_1022nb-1.nessus        192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
+   192_168_1_1_1022nb-2.nessus        192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
 
 
 Use ``-f`` or ``--filter`` to check only these plugins which have |VPR| assigned. Read more about `JMESPath <https://jmespath.org>`_.
@@ -331,7 +331,7 @@ See description of columns returned in ``nfr scan --plugin-severity``.
    Report host name - target name used during scan
    PID - Plugin ID reported in scan
    S - Severity number (0-4) of plugin
-   SL - Severity label of plugin (e.g. Critical, High, Medium, Low, None)
+   SL - Severity label of plugin (e.g. Critical, High, Medium, Low, Info)
    RF - Risk factor of plugin (e.g. Critical, High, Medium, Low, None)
    CVSSv2 - CVSSv2 base score of plugin
    CVSSv2L - CVSSv2 base score label of plugin

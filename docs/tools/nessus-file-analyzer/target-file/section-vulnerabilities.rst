@@ -422,6 +422,64 @@ Plugin type
     * - Column type
       - ``debug``, ``default``
 
+***************
+Severity Number
+***************
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+
+.. list-table:: Severity Number - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - Severity Number
+
+    * - Description
+      - Exact Plugin Severity Number returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/severity``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+********
+Severity
+********
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: Severity - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - Severity
+
+    * - Description
+      - Exact Plugin Severity returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/severity``
+
+    * - Post-processing
+      - Severity is returned in human readable format, e.g. 
+        ``Critical``, ``High``, ``Medium``, ``Low``, ``Info`` 
+        using **nessus file reader (NFR)**'s function 
+        ``severity_number_to_label(severity_number)``
+
+    * - Column type
+      - ``debug``, ``default``
+
 ***********
 Risk Factor
 ***********
@@ -441,6 +499,288 @@ Risk Factor
 
     * - Post-processing
       - *none*
+
+    * - Column type
+      - ``debug``, ``default``
+
+*****************
+CVSSv2 Base Score
+*****************
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv2 Base Score - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv2 Base Score
+
+    * - Description
+      - Exact Plugin |CVSSv2| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss2_base_score``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+******
+CVSSv2
+******
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv2 - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv2
+
+    * - Description
+      - Exact Plugin CVSSv2 label based on |CVSSv2| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss2_base_score``
+
+    * - Post-processing
+      - Severity is returned in human readable format, e.g. 
+        ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
+        using **nessus file reader (NFR)**'s function 
+        ``cvssv2_score_to_severity(cvss_score)``
+
+    * - Column type
+      - ``debug``, ``default``
+
+*****************
+CVSSv3 Base Score
+*****************
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv3 Base Score - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv3 Base Score
+
+    * - Description
+      - Exact Plugin |CVSSv3| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss3_base_score``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+******
+CVSSv3
+******
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv3 - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv3
+
+    * - Description
+      - Exact Plugin CVSSv3 label based on |CVSSv3| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss3_base_score``
+
+    * - Post-processing
+      - Severity is returned in human readable format, e.g. 
+        ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
+        using **nessus file reader (NFR)**'s function 
+        ``cvssv3_score_to_severity(cvss_score)``
+
+    * - Column type
+      - ``debug``, ``default``
+
+*****************
+CVSSv4 Base Score
+*****************
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv4 Base Score - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv4 Base Score
+
+    * - Description
+      - Exact Plugin |CVSSv4| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss4_base_score``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+******
+CVSSv4
+******
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: CVSSv4 - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - CVSSv4
+
+    * - Description
+      - Exact Plugin CVSSv4 label based on |CVSSv4| base score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/cvss4_base_score``
+
+    * - Post-processing
+      - Severity is returned in human readable format, e.g. 
+        ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
+        using **nessus file reader (NFR)**'s function 
+        ``cvssv4_score_to_severity(cvss_score)``
+
+    * - Column type
+      - ``debug``, ``default``
+
+*********
+VPR Score
+*********
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: VPR Score - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - VPR Score
+
+    * - Description
+      - Exact Plugin |VPR| score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/vpr_score``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+***
+VPR
+***
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: VPR - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - VPR
+
+    * - Description
+      - Exact Plugin |VPR| label based on |VPR| score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/vpr_score``
+
+    * - Post-processing
+      - Severity is returned in human readable format, e.g. 
+        ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
+        using **nessus file reader (NFR)**'s function 
+        ``vpr_score_to_severity(vpr_score)``
+
+    * - Column type
+      - ``debug``, ``default``
+
+****
+EPSS
+****
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: EPSS - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - EPSS
+
+    * - Description
+      - Exact Plugin |EPSS| score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/epss_score``
+
+    * - Post-processing
+      - *none*
+
+    * - Column type
+      - ``debug``
+
+******
+EPSS %
+******
+
+.. versionadded:: v0.8.0
+
+   :ref:`nfr-upgrade` now!
+
+.. list-table:: EPSS % - column details
+    :widths: 20 80
+    :stub-columns: 1
+
+    * - Header name
+      - EPSS %
+
+    * - Description
+      - Exact Plugin |EPSS| percentage based on |EPSS| score returned by Nessus.
+
+    * - Source
+      - nessus file > ``ReportHost/ReportItem/epss_score``
+
+    * - Post-processing
+      - Score saved with ``%`` format using XlsxWriter.
 
     * - Column type
       - ``debug``, ``default``

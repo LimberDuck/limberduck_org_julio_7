@@ -93,7 +93,7 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
    :width: 600
    :align: center
 
-   **nessus file analyzer (NFA)** main window running on Ubuntu, Windows and macOS. 
+   **nessus file analyzer (NFA)** main window running on macOS, but works as well on Windows and Linux. 
 
 Technology stack
 ----------------

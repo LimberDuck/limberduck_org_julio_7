@@ -17,6 +17,8 @@ Install **nessus file analyzer (NFA)**
 
     pip install nessus-file-analyzer
 
+.. _nfa-upgrade:
+
 Upgrade
 #######
     

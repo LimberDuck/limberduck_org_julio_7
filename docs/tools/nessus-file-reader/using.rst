@@ -344,6 +344,7 @@ See description of columns returned in ``nfr scan --plugin-severity``.
    EPSS - Exploit Prediction Scoring System score of plugin
    EPSS% - Exploit Prediction Scoring System score of plugin in percentage
 
+.. _nfr-scan-filter:
 
 ``nfr scan --filter``
 ---------------------

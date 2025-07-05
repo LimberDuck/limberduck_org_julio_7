@@ -46,7 +46,7 @@ html_logo = "_static/img/LimberDuck-logo.png"
 html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
-    "announcement": "Compare plugin severity with nessus file reader (NFR) v0.6.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
+    "announcement": "Compare plugin severity with NFA v0.8.0 and NFR v0.6.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "og_image_url" : "_static/img/limberduck-logo-bg.png",

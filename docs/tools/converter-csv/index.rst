@@ -3,7 +3,7 @@
 Converter CSV
 =============
 
-|pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|converter_csv_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 .. image:: ../../_static/img/LimberDuck-converter-csv-logo.png
    :alt: LimberDuck converter-csv logo
@@ -111,6 +111,10 @@ Stargazers over time
 .. |pypi_downloads| image:: https://img.shields.io/pypi/dm/converter-csv?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/converter-csv
     :alt: PyPI - Downloads
+
+.. |converter_csv_pepy_downloads| image:: https://img.shields.io/pepy/dt/converter-csv?logo=PyPI&style=social   
+    :target: https://pepy.tech/projects/converter-csv
+    :alt: pepy.tech - Total Downloads
 
 ----
 

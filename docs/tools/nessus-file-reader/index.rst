@@ -3,7 +3,7 @@
 nessus file reader (NFR)
 ========================
 
-|pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|nfr_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 .. image:: ../../_static/img/LimberDuck-nessus-file-reader-logo.png
    :alt: LimberDuck nessus-file-reader logo
@@ -141,3 +141,6 @@ Stargazers over time
     :target: https://pypistats.org/packages/nessus-file-reader
     :alt: PyPI - Downloads
 
+.. |nfr_pepy_downloads| image:: https://img.shields.io/pepy/dt/nessus-file-reader?logo=PyPI&style=social   
+    :target: https://pepy.tech/projects/nessus-file-reader
+    :alt: pepy.tech - Total Downloads

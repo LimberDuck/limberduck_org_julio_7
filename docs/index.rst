@@ -28,7 +28,7 @@ LimberDuck
     .. grid-item-card:: :octicon:`terminal` nessus file reader (NFR)
       :link: tools/nessus-file-reader/
       
-      |nfr_pypi_downloads| |nfr_stars_from_users|
+      |nfr_pepy_downloads| |nfr_stars_from_users|
 
       CLI tool and python module which enables you to parse nessus files 
       with VA scan results performed using Tenable Nessus ® by Tenable, Inc.
@@ -37,7 +37,7 @@ LimberDuck
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (NFA)
       :link: tools/nessus-file-analyzer/
 
-      |nfa_pypi_downloads| |nfa_stars_from_users|
+      |nfa_pepy_downloads| |nfa_stars_from_users|
       
       GUI tool which enables you to analyze nessus files 
       with VA scan results performed using Tenable Nessus ® by Tenable, Inc.
@@ -45,14 +45,14 @@ LimberDuck
     .. grid-item-card:: :octicon:`browser` Converter CSV
       :link: tools/converter-csv/
 
-      |converter_csv_pypi_downloads| |converter_csv_stars_from_users|
+      |converter_csv_pepy_downloads| |converter_csv_stars_from_users|
       
       GUI tool which enables you to convert multiple, large csv files to xlsx files.
 
     .. grid-item-card:: :octicon:`terminal` TNSCM
       :link: tools/tnscm/
       
-      |tnscm_pypi_downloads| |tnscm_stars_from_users|
+      |tnscm_pepy_downloads| |tnscm_stars_from_users|
 
       CLI tool which enables you to manage 
       Tenable Nessus ® by Tenable, Inc. via API.
@@ -60,7 +60,7 @@ LimberDuck
     .. grid-item-card:: :octicon:`terminal` TSCCM
       :link: tools/tsccm/
       
-      |tsccm_pypi_downloads| |tsccm_stars_from_users|
+      |tsccm_pepy_downloads| |tsccm_stars_from_users|
 
       CLI tool which enables you to manage 
       Tenable Security Center ® by Tenable, Inc. via API.
@@ -200,3 +200,23 @@ Testimonials
 .. |tsccm_stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/tsccm?label=Stars&style=social
     :target: https://github.com/LimberDuck/tsccm
     :alt: GitHub Stars
+
+.. |nfa_pepy_downloads| image:: https://img.shields.io/pepy/dt/nessus-file-analyzer?logo=PyPI&style=social
+    :target: https://pepy.tech/projects/nessus-file-analyzer
+    :alt: pepy.tech - Total Downloads
+
+.. |nfr_pepy_downloads| image:: https://img.shields.io/pepy/dt/nessus-file-reader?logo=PyPI&style=social
+    :target: https://pepy.tech/projects/nessus-file-reader
+    :alt: pepy.tech - Total Downloads
+
+.. |converter_csv_pepy_downloads| image:: https://img.shields.io/pepy/dt/converter-csv?logo=PyPI&style=social
+    :target: https://pepy.tech/projects/converter-csv
+    :alt: pepy.tech - Total Downloads
+
+.. |tnscm_pepy_downloads| image:: https://img.shields.io/pepy/dt/tnscm?logo=PyPI&style=social
+    :target: https://pepy.tech/projects/tnscm
+    :alt: pepy.tech - Total Downloads
+
+.. |tsccm_pepy_downloads| image:: https://img.shields.io/pepy/dt/tsccm?logo=PyPI&style=social
+    :target: https://pepy.tech/projects/tsccm
+    :alt: pepy.tech - Total Downloads

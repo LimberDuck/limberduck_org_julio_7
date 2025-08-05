@@ -3,7 +3,7 @@
 TSCCM
 =====
 
-|pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|tsccm_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 
 TSCCM by LimberDuck is a |CLI| tool which enables you to perform certain actions on 
@@ -118,3 +118,7 @@ Stargazers over time
 .. |stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/tsccm?label=Stars&style=social
     :target: https://github.com/LimberDuck/tsccm
     :alt: GitHub Stars
+
+.. |tsccm_pepy_downloads| image:: https://img.shields.io/pepy/dt/tsccm?logo=PyPI&style=social   
+    :target: https://pepy.tech/projects/tsccm
+    :alt: pepy.tech - Total Downloads

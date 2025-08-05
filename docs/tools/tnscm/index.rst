@@ -3,7 +3,7 @@
 TNSCM
 =====
 
-|pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|tnscm_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 
 TNSCM by LimberDuck is a |CLI| tool which enables you to perform certain actions on 
@@ -112,3 +112,7 @@ Stargazers over time
 .. |stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/tnscm?label=Stars&style=social
     :target: https://github.com/LimberDuck/tnscm
     :alt: GitHub Stars
+
+.. |tnscm_pepy_downloads| image:: https://img.shields.io/pepy/dt/tnscm?logo=PyPI&style=social   
+    :target: https://pepy.tech/projects/tnscm
+    :alt: pepy.tech - Total Downloads

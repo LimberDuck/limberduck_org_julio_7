@@ -3,7 +3,7 @@
 nessus file analyzer (NFA)
 ==========================
 
-|pypi_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
+|nfa_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
 
 .. image:: ../../_static/img/LimberDuck-nessus-file-analyzer-logo.png
    :alt: LimberDuck nessus-file-analyzer logo
@@ -186,6 +186,10 @@ Stargazers over time
 .. |pypi_downloads| image:: https://img.shields.io/pypi/dm/nessus-file-analyzer?logo=PyPI&style=social   
     :target: https://pypistats.org/packages/nessus-file-analyzer
     :alt: PyPI - Downloads
+
+.. |nfa_pepy_downloads| image:: https://img.shields.io/pepy/dt/nessus-file-analyzer?logo=PyPI&style=social   
+    :target: https://pepy.tech/projects/nessus-file-analyzer
+    :alt: pepy.tech - Total Downloads
 
 .. toctree::
    :hidden:

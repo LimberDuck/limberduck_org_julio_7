@@ -50,6 +50,10 @@ html_theme_options = {
     "announcement": "Compare plugin severity with NFA v0.8.0 and NFR v0.6.0. Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
+    "linkedin_url": "https://www.linkedin.com/company/LimberDuck",
+    "twitter_url": "https://twitter.com/LimberDuckOrg",
+    "facebook_url": "https://www.facebook.com/limberduck",
+    "instagram_url": "https://www.instagram.com/limberduck",
     "og_image_url" : "_static/img/limberduck-logo-bg.png",
     "nav_links": [
         {

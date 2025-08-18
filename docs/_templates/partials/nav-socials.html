@@ -1,0 +1,29 @@
+<div class="sy-head-socials">
+    {%- if theme_github_url %}
+    <a href="{{ theme_github_url }}" aria-label="GitHub">
+        <iconify-icon icon="simple-icons:github"></iconify-icon>
+    </a>
+    {%- elif theme_gitlab_url %}
+    <a href="{{ theme_gitlab_url }}" aria-label="Gitlab">
+        <iconify-icon icon="simple-icons:gitlab"></iconify-icon>
+    </a>
+    {%- elif theme_bitbucket_url %}
+    <a href="{{ theme_bitbucket_url }}" aria-label="Bitbucket">
+        <iconify-icon icon="simple-icons:bitbucket"></iconify-icon>
+    </a>
+    {%- endif %}
+    {%- if theme_discord_url %}
+    <a href="{{ theme_discord_url }}" aria-label="Discord">
+        <iconify-icon icon="simple-icons:discord"></iconify-icon>
+    </a>
+    {%- elif theme_slack_url %}
+    <a href="{{ theme_slack_url }}" aria-label="Slack">
+        <iconify-icon icon="simple-icons:slack"></iconify-icon>
+    </a>
+    {%- endif %}
+    {%- if theme_linkedin_url %}
+    <a href="{{ theme_linkedin_url }}" aria-label="LinkedIn">
+    <iconify-icon icon="simple-icons:linkedin"></iconify-icon>
+    </a>
+    {%- endif %}
+</div>

@@ -54,6 +54,7 @@ html_theme_options = {
     "twitter_url": "https://twitter.com/LimberDuckOrg",
     "facebook_url": "https://www.facebook.com/limberduck",
     "instagram_url": "https://www.instagram.com/limberduck",
+    "mastodon_url": "https://mastodon.social/@limberduck",
     "og_image_url" : "_static/img/limberduck-logo-bg.png",
     "nav_links": [
         {

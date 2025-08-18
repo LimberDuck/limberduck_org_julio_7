@@ -25,6 +25,7 @@ extensions = [
     "sphinx_togglebutton",
     "ablog",
     "sphinx.ext.intersphinx",
+    "sphinx_iconify",
 ]
 
 templates_path = ['_templates']

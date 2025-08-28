@@ -51,6 +51,7 @@ html_theme_options = {
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "linkedin_url": "https://www.linkedin.com/company/LimberDuck",
+    "youtube_url": "https://www.youtube.com/@LimberDuck",
     "twitter_url": "https://twitter.com/LimberDuckOrg",
     "facebook_url": "https://www.facebook.com/limberduck",
     "instagram_url": "https://www.instagram.com/limberduck",

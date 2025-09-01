@@ -47,7 +47,7 @@ html_logo = "_static/img/LimberDuck-logo.png"
 html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
-    "announcement": "Check for Update option in all LimberDuck Tools! Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
+    "announcement": "<i>Check for Update</i> option in all LimberDuck Tools! Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "linkedin_url": "https://www.linkedin.com/company/LimberDuck",

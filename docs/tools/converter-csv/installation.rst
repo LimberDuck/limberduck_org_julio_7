@@ -18,6 +18,7 @@ Install **Converter CSV**
     
     pip install converter-csv
 
+.. _converter-csv-upgrade:
 
 Upgrade
 #######

@@ -87,7 +87,7 @@ You can build an executable file for **Converter CSV**.
    
       .. code-block:: bash
    
-           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv\__main__.py
+           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv/__main__.py
    
    7. Go to ``dist`` catalog to find executable file ``converter-csv``.
 
@@ -127,7 +127,7 @@ You can build an executable file for **Converter CSV**.
    
       .. code-block:: bash
            
-           pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv\__main__.py
+           pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv/__main__.py
    
    7. Go to ``dist`` catalog to find executable file ``converter-csv``.
    

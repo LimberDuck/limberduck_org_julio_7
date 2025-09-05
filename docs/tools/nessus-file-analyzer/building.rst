@@ -87,7 +87,7 @@ You can build an executable file for **nessus file analyzer (NFA)**.
    
       .. code-block:: bash
    
-           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-nessus-file-analyzer.ico --name nessus-file-analyzer nessus_file_analyzer\__main__.py
+           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-nessus-file-analyzer.ico --name nessus-file-analyzer nessus_file_analyzer/__main__.py
    
    7. Go to ``dist`` catalog to find executable file ``nessus-file-analyzer``.
 
@@ -127,7 +127,7 @@ You can build an executable file for **nessus file analyzer (NFA)**.
    
       .. code-block:: bash
            
-           pyinstaller --onefile --windowed --icon=./icons/LimberDuck-nessus-file-analyzer.ico --name nessus-file-analyzer nessus_file_analyzer\__main__.py
+           pyinstaller --onefile --windowed --icon=./icons/LimberDuck-nessus-file-analyzer.ico --name nessus-file-analyzer nessus_file_analyzer/__main__.py
    
    7. Go to ``dist`` catalog to find executable file ``nessus-file-analyzer``.
    

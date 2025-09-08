@@ -4,9 +4,8 @@
 Using
 #####
 
-*****************
 Open nessus files
-*****************
+#################
 
 You have a few possibilities to open your nessus files in **nessus file analyzer (NFA)**.
 
@@ -41,9 +40,8 @@ You have a few possibilities to open your nessus files in **nessus file analyzer
 1. On |OS| level select one or more directories containing nessus files in your |OS| file browser. 
 2. Simple drag and drop selected directory or directories on **nessus file analyzer (NFA)** window.
 
-******************
 Select report type
-******************
+##################
 
 Select one or more report types: scan, host, vulnerabilities, noncompliance.
 
@@ -75,23 +73,43 @@ Select one or more report types: scan, host, vulnerabilities, noncompliance.
 
     Check :doc:`target-file/section-noncompliance` description to get more details.
 
-*********
 Configure
-*********
+#########
 
 Configure **nessus file analyzer (NFA)** to fit target file to your exact needs.
 
 .. seealso::
     Check :doc:`settings` to get more details.
 
-******************
 Initialize analyze
-******************
+##################
 
 Click :bdg-secondary:`Start` button to initiate analyze of all provided nessus files.
 
-****************
 Open target file
-****************
+################
 
 Click :bdg-secondary:`Open` button to open target directory where output file has been saved.
+
+Help menu
+#########
+
+Check for Update
+================
+
+Select ``Help > Check for Update`` option to check if you are using the latest version of **nessus file analyzer (NFA)**.
+
+Documentation
+=============
+
+Select ``Help > Documentation`` option to open online **nessus file analyzer (NFA)** documentation.
+
+GitHub
+======
+
+Select ``Help > GitHub`` option to open **nessus file analyzer (NFA)** GitHub project page.
+
+Releases
+========
+
+Select ``Help > Releases`` option to open **nessus file analyzer (NFA)** GitHub Releases page.

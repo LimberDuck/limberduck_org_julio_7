@@ -4,6 +4,13 @@
 Installation
 ############
 
+.. hint::
+
+    Since ``v0.10.0`` nessus file analyzer (NFA) comes with pre-built binaries for Windows, 
+    Linux and macOS. You can download the latest version from 
+    `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page. 
+    You can still install it with ``pip`` and build it from source code if you want.
+
 .. note::
 
     It's advisable to use python virtual environment for below instructions. Read more about python virtual environment in `The Hitchhiker’s Guide to Python! <https://docs.python-guide.org/dev/virtualenvs/>`_

@@ -4,7 +4,7 @@ Check for Update option in all LimberDuck Tools
 ===============================================
 
 .. post:: 2025-09-01 20:00:00
-   :tags: nfr nfa tnscm tsccm converter-csv
+   :tags: nfr, nfa, tnscm, tsccm, converter-csv
    :category: tools
    :author: Damian
 

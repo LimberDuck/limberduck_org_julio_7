@@ -4,7 +4,7 @@ NFA v0.8.0 and NFR v0.6.0: Compare plugin severity
 ==================================================
 
 .. post:: 2025-06-28 16:43:40
-   :tags: nfr nfa
+   :tags: nfr, nfa
    :category: tools
    :author: Damian
 

@@ -4,7 +4,7 @@ NFA and Converter CSV - ready to download and run out of the box
 ================================================================
 
 .. post:: 2025-09-08 20:00:00
-   :tags: nfa converter-csv
+   :tags: nfa, converter-csv
    :category: tools
    :author: Damian
 

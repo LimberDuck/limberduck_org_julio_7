@@ -1,8 +1,15 @@
 :description: Building instruction for Converter CSV.
 
-********
+########
 Building
-********
+########
+
+.. hint::
+
+    Since ``v0.4.1`` Converter CSV comes with pre-built binaries for Windows, 
+    Linux and macOS. You can download the latest version from 
+    `GitHub Releases <https://github.com/LimberDuck/converter-csv/releases>`_ page. 
+    You can still install it with ``pip`` and build it from source code if you want.
 
 .. note::
    This step is optional.
@@ -47,9 +54,9 @@ You can build an executable file for **Converter CSV**.
    
       .. code-block:: shell
    
-            pyinstaller --onefile --windowed --version-file=.\version.rc --icon=.\icons\LimberDuck-converter-csv.ico  --name converter-csv converter_csv\__main__.py
+            pyinstaller --onefile --windowed --version-file=.\version.rc --icon=.\icons\LimberDuck-Converter-CSV.ico  --name "LimberDuck Converter CSV" converter_csv\__main__.py
    
-   7. Go to ``dist`` catalog to find executable file ``converter-csv.exe``
+   7. Go to ``dist`` catalog to find executable file ``LimberDuck Converter CSV.exe``
    
   .. group-tab:: Linux (Ubuntu)
 
@@ -87,9 +94,9 @@ You can build an executable file for **Converter CSV**.
    
       .. code-block:: bash
    
-           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv/__main__.py
+           ~/.local/bin/pyinstaller --onefile --windowed --icon=./icons/LimberDuck-Converter-CSV.ico --name "LimberDuck-Converter-CSV" converter_csv/__main__.py
    
-   7. Go to ``dist`` catalog to find executable file ``converter-csv``.
+   7. Go to ``dist`` catalog to find executable file ``LimberDuck-Converter-CSV``.
 
   .. group-tab:: macOS
 
@@ -127,7 +134,7 @@ You can build an executable file for **Converter CSV**.
    
       .. code-block:: bash
            
-           pyinstaller --onefile --windowed --icon=./icons/LimberDuck-converter-csv.ico --name converter-csv converter_csv/__main__.py
+           pyinstaller --windowed --icon=./icons/LimberDuck-Converter-CSV.ico --name "LimberDuck Converter CSV" converter_csv/__main__.py
    
-   7. Go to ``dist`` catalog to find executable file ``converter-csv``.
+   7. Go to ``dist`` catalog to find executable file ``LimberDuck Converter CSV.app``.
    

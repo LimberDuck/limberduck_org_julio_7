@@ -144,6 +144,7 @@ rst_prolog =  """
 .. |xlsx| replace:: :abbr:`xlsx (Microsoft Excel Open XML Spreadsheet)`
 .. |VA| replace:: :abbr:`VA (Vulnerability Assessment)`
 .. |TLDR| replace:: :abbr:`TLDR (Too Long; Didn't Read.)`
+.. |PyPI| replace:: :abbr:`PyPI (The Python Package Index)`
 
 .. nessus-file-analyzer:
 .. |nfa| replace:: :abbr:`nfa (nessus-file-analyzer by Limberduck)`

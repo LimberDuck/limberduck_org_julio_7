@@ -27,39 +27,39 @@ This tool will let you perform actions like:
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/tsccm
-         :color: primary
-         :outline:
-         :tooltip: Check source code here
-
-         :octicon:`code;1em;sd-color-primary-text` source code
-
-    .. grid-item::
-
       .. button-link:: https://github.com/LimberDuck/tsccm/releases
          :color: primary
          :outline:
-         :tooltip: Check release notes here
+         :tooltip: Release notes
 
-         :octicon:`note;1em;sd-color-primary-text` release notes
+         :octicon:`note;1em;sd-color-primary-text` Release notes
+
+    .. grid-item::
+
+      .. button-link:: https://github.com/LimberDuck/tsccm
+         :color: primary
+         :outline:
+         :tooltip: Source code
+
+         :octicon:`code;1em;sd-color-primary-text` Source code
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/tsccm/discussions
          :color: primary
          :outline:
-         :tooltip: Discuss here
+         :tooltip: Discussions
 
-         :octicon:`comment-discussion;1em;sd-color-primary-text` discussions
+         :octicon:`comment-discussion;1em;sd-color-primary-text` Discussions
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/tsccm/issues
          :color: primary
          :outline:
-         :tooltip: Report issues here
+         :tooltip: Issues
 
-         :octicon:`issue-opened;1em;sd-color-primary-text` issues
+         :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
 
 .. figure:: ../../_static/img/limberduck-tsccm.png

@@ -3,7 +3,7 @@
 Converter CSV
 =============
 
-|converter_csv_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|converter_csv_pepy_downloads| |github_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 .. image:: ../../_static/img/LimberDuck-converter-csv-logo.png
    :alt: LimberDuck converter-csv logo
@@ -20,39 +20,38 @@ Source [#]_ tool.
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/converter-csv
+      .. button-link:: https://github.com/LimberDuck/converter-csv/releases
          :color: primary
-         :outline:
-         :tooltip: Check source code here
+         :tooltip: Release notes and downloads
 
-         :octicon:`code;1em;sd-color-primary-text` source code
+         :octicon:`download;1em;sd-color-primary-text` Download
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/converter-csv/releases
+      .. button-link:: https://github.com/LimberDuck/converter-csv
          :color: primary
          :outline:
-         :tooltip: Check release notes here
+         :tooltip: Source code
 
-         :octicon:`note;1em;sd-color-primary-text` release notes
+         :octicon:`code;1em;sd-color-primary-text` Source code
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/converter-csv/discussions
          :color: primary
          :outline:
-         :tooltip: Discuss here
+         :tooltip: Discussions
 
-         :octicon:`comment-discussion;1em;sd-color-primary-text` discussions
+         :octicon:`comment-discussion;1em;sd-color-primary-text` Discussions
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/converter-csv/issues
          :color: primary
          :outline:
-         :tooltip: Report issues here
+         :tooltip: Issues
 
-         :octicon:`issue-opened;1em;sd-color-primary-text` issues
+         :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
 .. figure:: https://user-images.githubusercontent.com/9287709/57588063-d4b2f280-750e-11e9-9ba8-e2d301d38cbc.png
    :width: 600
@@ -115,6 +114,10 @@ Stargazers over time
 .. |converter_csv_pepy_downloads| image:: https://img.shields.io/pepy/dt/converter-csv?logo=PyPI&style=social   
     :target: https://pepy.tech/projects/converter-csv
     :alt: pepy.tech - Total Downloads
+
+.. |github_downloads| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/total?style=social&logo=GitHub
+   :target: https://github.com/LimberDuck/converter-csv/releases
+   :alt: GitHub Downloads (all assets, all releases)
 
 ----
 

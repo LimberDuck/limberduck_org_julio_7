@@ -27,39 +27,39 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/nessus-file-reader
-         :color: primary
-         :outline:
-         :tooltip: Check source code here
-
-         :octicon:`code;1em;sd-color-primary-text` source code
-
-    .. grid-item::
-
       .. button-link:: https://github.com/LimberDuck/nessus-file-reader/releases
          :color: primary
          :outline:
-         :tooltip: Check release notes here
+         :tooltip: Release notes
 
-         :octicon:`note;1em;sd-color-primary-text` release notes
+         :octicon:`note;1em;sd-color-primary-text` Release notes
+
+    .. grid-item::
+
+      .. button-link:: https://github.com/LimberDuck/nessus-file-reader
+         :color: primary
+         :outline:
+         :tooltip: Source code
+
+         :octicon:`code;1em;sd-color-primary-text` Source code
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/nessus-file-reader/discussions
          :color: primary
          :outline:
-         :tooltip: Discuss here
+         :tooltip: Discussions
 
-         :octicon:`comment-discussion;1em;sd-color-primary-text` discussions
+         :octicon:`comment-discussion;1em;sd-color-primary-text` Discussions
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/nessus-file-reader/issues
          :color: primary
          :outline:
-         :tooltip: Report issues here
+         :tooltip: Issues
 
-         :octicon:`issue-opened;1em;sd-color-primary-text` issues
+         :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
 .. .. list-table:: nessus-file-reader details
 ..     :widths: 25 75

@@ -3,7 +3,7 @@
 nessus file analyzer (NFA)
 ==========================
 
-|nfa_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
+|nfa_pepy_downloads| |github_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
 
 .. image:: ../../_static/img/LimberDuck-nessus-file-analyzer-logo.png
    :alt: LimberDuck nessus-file-analyzer logo
@@ -27,48 +27,38 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer
+      .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/releases
          :color: primary
-         :outline:
-         :tooltip: Check source code here
+         :tooltip: Release notes and downloads
 
-         :octicon:`code;1em;sd-color-primary-text` source code
+         :octicon:`download;1em;sd-color-primary-text` Download
 
     .. grid-item::
 
-      .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/releases
+      .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer
          :color: primary
          :outline:
-         :tooltip: Check release notes here
+         :tooltip: Source code
 
-         :octicon:`note;1em;sd-color-primary-text` release notes
+         :octicon:`code;1em;sd-color-primary-text` Source code
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/discussions
          :color: primary
          :outline:
-         :tooltip: Discuss here
+         :tooltip: Discussions
 
-         :octicon:`comment-discussion;1em;sd-color-primary-text` discussions
+         :octicon:`comment-discussion;1em;sd-color-primary-text` Discussions
 
     .. grid-item::
 
       .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/issues
          :color: primary
          :outline:
-         :tooltip: Report issues here
+         :tooltip: Issues
 
-         :octicon:`issue-opened;1em;sd-color-primary-text` issues
-
-    .. grid-item::
-
-      .. button-link:: https://nessus-file-analyzer.readthedocs.io
-         :color: primary
-         :outline:
-         :tooltip: Read documentation here
-
-         :octicon:`repo;1em;sd-color-primary-text` docs
+         :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
 .. .. list-table:: nessus-file-analyzer details
 ..     :widths: 25 75
@@ -190,6 +180,10 @@ Stargazers over time
 .. |nfa_pepy_downloads| image:: https://img.shields.io/pepy/dt/nessus-file-analyzer?logo=PyPI&style=social   
     :target: https://pepy.tech/projects/nessus-file-analyzer
     :alt: pepy.tech - Total Downloads
+
+.. |github_downloads| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/total?style=social&logo=GitHub
+   :target: https://github.com/LimberDuck/nessus-file-analyzer/releases
+   :alt: GitHub Downloads (all assets, all releases)
 
 .. toctree::
    :hidden:

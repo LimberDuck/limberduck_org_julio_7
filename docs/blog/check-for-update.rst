@@ -93,9 +93,9 @@ In addition, in Help menu you can now find quick links to:
    
    :ref:`nfa-upgrade` to **NFA v0.9.0**.
 
-   :ref:`nfr-upgrade` it to **NFR v0.7.1**.
+   :ref:`nfr-upgrade` to **NFR v0.7.1**.
 
-   :ref:`converter-csv-upgrade` it to **Converter v0.4.0**.
+   :ref:`converter-csv-upgrade` to **Converter v0.4.0**.
 
    Upgrade to **TNSCM v0.0.7** with ``pip install --upgrade tnscm``
 

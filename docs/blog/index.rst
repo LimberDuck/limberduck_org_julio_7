@@ -20,6 +20,8 @@ News
    :hidden:
    :glob:
 
+   nfa-and-converter-csv-ready-to-download-and-run
+   check-for-update
    compare-plugin-severity
    split-large-nessus-files
    new-website-look

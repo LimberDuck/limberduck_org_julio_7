@@ -98,7 +98,7 @@ Build version
 
        .. code-block:: shell
        
-            xattr -dr com.apple.quarantine LimberDuck\ Converter\ CSV.app
+            xattr -dr com.apple.quarantine LimberDuck\ NFA.app
 
     7. Click on ``LimberDuck NFA.app`` file again to start **NFA**.
 

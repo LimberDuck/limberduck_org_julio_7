@@ -104,6 +104,10 @@ html_theme_options = {
             "title": "Contact",
             "url": "contact/index",
         },
+        {
+            "title": "Missing feature?",
+            "url": "contact/index",
+        },
     ]
 
 }

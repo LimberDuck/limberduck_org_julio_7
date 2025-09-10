@@ -83,7 +83,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
 Technology stack
 ----------------
 
-.. image:: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
+.. image:: https://www.python.org/static/community_logos/python-logo-generic.svg
    :alt: Python logo
    :target: https://python.org
    :width: 220px

@@ -68,27 +68,27 @@ html_theme_options = {
                 {
                     "title": "nessus file reader (NFR)",
                     "url": "tools/nessus-file-reader/index",
-                    "summary": "CLI tool and python module",
+                    "summary": "Parse data from Tenable Nessus and Tenable Security Center scan results",
                 },
                 {
                     "title": "nessus file analyzer (NFA)",
                     "url": "tools/nessus-file-analyzer/index",
-                    "summary": "GUI tool",
+                    "summary": "Generate report from Tenable Nessus and Tenable Security Center scan results",
                 },
                 {
                     "title": "Converter CSV",
                     "url": "tools/converter-csv/index",
-                    "summary": "GUI tool",
+                    "summary": "Convert CSV files to XLSX format",
                 },
                 {
                     "title": "TNSCM",
                     "url": "tools/tnscm/index",
-                    "summary": "CLI tool",
+                    "summary": "Manage Tenable Nessus via API",
                 },
                 {
                     "title": "TSCCM",
                     "url": "tools/tsccm/index",
-                    "summary": "CLI tool",
+                    "summary": "Manage Tenable Security Center via API",
                 },
             ]
         },

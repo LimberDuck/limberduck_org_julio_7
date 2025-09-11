@@ -1,4 +1,4 @@
-:description: Using instruction for nessus file analyzer (nfa).
+:description: Using instruction for nessus file analyzer (NFA).
 
 #####
 Using

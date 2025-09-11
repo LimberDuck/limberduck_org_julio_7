@@ -1,4 +1,4 @@
-:description: Programming instruction for nessus file reader (nfr).
+:description: Programming instruction for nessus file reader (NFR).
 
 Programming
 ===========

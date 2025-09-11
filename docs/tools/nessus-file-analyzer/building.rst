@@ -1,4 +1,4 @@
-:description: Building instruction for nessus file analyzer (nfa).
+:description: Building instruction for nessus file analyzer (NFA).
 
 ########
 Building

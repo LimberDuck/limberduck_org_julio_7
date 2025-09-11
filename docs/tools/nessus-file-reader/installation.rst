@@ -1,4 +1,4 @@
-:description: Installation instruction for nessus file reader (nfr).
+:description: Installation instruction for nessus file reader (NFR).
 
 ############
 Installation

@@ -1,4 +1,4 @@
-:description: Running instruction for nessus file analyzer (nfa).
+:description: Running instruction for nessus file analyzer (NFA).
 
 #######
 Running

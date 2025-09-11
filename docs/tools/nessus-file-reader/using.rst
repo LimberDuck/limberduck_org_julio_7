@@ -1,4 +1,4 @@
-:description: Using instruction for nessus file reader (nfr).
+:description: Using instruction for nessus file reader (NFR).
 
 #####
 Using

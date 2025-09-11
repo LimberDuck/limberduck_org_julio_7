@@ -15,7 +15,7 @@ Here you will find all details about data visible in target file in *Host* secti
       - Short description of particular data.
 
     * - Source
-      - Information about the exact source from where |nfa| takes data.
+      - Information about the exact source from where |NFA| takes data.
 
     * - Post-processing
       - Information on how the gathered data is processed, if it's processed at all.

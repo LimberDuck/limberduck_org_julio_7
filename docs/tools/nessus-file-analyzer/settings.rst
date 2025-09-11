@@ -1,4 +1,4 @@
-:description: Settings instruction for nessus file analyzer (nfa).
+:description: Settings instruction for nessus file analyzer (NFA).
 
 ########
 Settings

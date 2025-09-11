@@ -1,4 +1,4 @@
-:description: Running instruction for nessus file reader (nfr).
+:description: Running instruction for nessus file reader (NFR).
 
 Running
 =======

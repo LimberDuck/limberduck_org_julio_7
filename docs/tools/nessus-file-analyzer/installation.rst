@@ -1,4 +1,4 @@
-:description: Installation instruction for nessus file analyzer (nfa).
+:description: Installation instruction for nessus file analyzer (NFA).
 
 ############
 Installation

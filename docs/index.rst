@@ -30,9 +30,8 @@ LimberDuck
       
       |nfr_pepy_downloads| |nfr_stars_from_users|
 
-      CLI tool and python module to parse nessus files 
-      with VA scan results performed using Tenable Nessus or Tenable 
-      Security Center ® by Tenable, Inc.
+      CLI tool and python module to parse nessus files with VA scan results 
+      conducted with *Tenable Nessus* or *Tenable Security Center*.
 
 
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (NFA)
@@ -40,33 +39,29 @@ LimberDuck
 
       |nfa_pepy_downloads| |nfa_stars_from_users|
       
-      GUI tool to generate reports from
-      VA scan results performed using Tenable Nessus or 
-      Tenable Security Center ® by Tenable, Inc.
+      GUI tool to generate reports from VA scan results conducted with 
+      *Tenable Nessus* or *Tenable Security Center*.
 
     .. grid-item-card:: :octicon:`browser` Converter CSV
       :link: tools/converter-csv/
 
       |converter_csv_pepy_downloads| |converter_csv_stars_from_users|
       
-      GUI tool to convert multiple, large CSV 
-      files to XLSX format.
+      GUI tool to convert multiple, large CSV files to XLSX format.
 
     .. grid-item-card:: :octicon:`terminal` TNSCM
       :link: tools/tnscm/
       
       |tnscm_pepy_downloads| |tnscm_stars_from_users|
 
-      CLI tool to manage 
-      Tenable Nessus ® by Tenable, Inc. via API.
+      CLI tool to manage *Tenable Nessus* via API.
 
     .. grid-item-card:: :octicon:`terminal` TSCCM
       :link: tools/tsccm/
       
       |tsccm_pepy_downloads| |tsccm_stars_from_users|
 
-      CLI tool to manage 
-      Tenable Security Center ® by Tenable, Inc. via API.
+      CLI tool to manage *Tenable Security Center* via API.
 
     .. grid-item-card:: :octicon:`rocket` and more...
       :link: about/

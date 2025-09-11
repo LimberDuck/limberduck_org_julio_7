@@ -68,12 +68,12 @@ html_theme_options = {
                 {
                     "title": "nessus file reader (NFR)",
                     "url": "tools/nessus-file-reader/index",
-                    "summary": "Parse data from Tenable Nessus and Tenable Security Center scan results",
+                    "summary": "Parse VA scan results from <i>Tenable Nessus</i> and <i>Tenable Security Center</i>",
                 },
                 {
                     "title": "nessus file analyzer (NFA)",
                     "url": "tools/nessus-file-analyzer/index",
-                    "summary": "Generate report from Tenable Nessus and Tenable Security Center scan results",
+                    "summary": "Generate reports of VA scan results from <i>Tenable Nessus</i> and <i>Tenable Security Center</i>",
                 },
                 {
                     "title": "Converter CSV",
@@ -83,12 +83,12 @@ html_theme_options = {
                 {
                     "title": "TNSCM",
                     "url": "tools/tnscm/index",
-                    "summary": "Manage Tenable Nessus via API",
+                    "summary": "Manage <i>Tenable Nessus</i> via API",
                 },
                 {
                     "title": "TSCCM",
                     "url": "tools/tsccm/index",
-                    "summary": "Manage Tenable Security Center via API",
+                    "summary": "Manage <i>Tenable Security Center</i> via API",
                 },
             ]
         },

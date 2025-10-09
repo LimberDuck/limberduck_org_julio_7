@@ -92,7 +92,7 @@ Technology stack
 Stargazers over time
 --------------------
 
-.. figure:: https://starchart.cc/LimberDuck/nessus-file-reader.svg?variant=adaptive
+.. figure:: https://starchart.cc/LimberDuck/nessus-file-reader.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
     :target: https://starchart.cc/LimberDuck/nessus-file-reader
     :alt: Stargazers over time
     :align: center

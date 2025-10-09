@@ -75,7 +75,7 @@ Technology stack
 Stargazers over time
 --------------------
 
-.. figure:: https://starchart.cc/LimberDuck/tnscm.svg?variant=adaptive
+.. figure:: https://starchart.cc/LimberDuck/tnscm.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
     :target: https://starchart.cc/LimberDuck/tnscm
     :alt: Stargazers over time
     :align: center

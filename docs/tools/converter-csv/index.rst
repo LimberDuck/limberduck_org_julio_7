@@ -53,11 +53,11 @@ Source [#]_ tool.
 
          :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
-.. figure:: https://user-images.githubusercontent.com/9287709/57588063-d4b2f280-750e-11e9-9ba8-e2d301d38cbc.png
+.. figure:: ../../_static/img/converter-csv.png
    :width: 600
    :align: center
 
-   **Converter CSV** main window running on Ubuntu, Windows and macOS. 
+   **Converter CSV** main window running on macOS, but works as well on Windows and Linux. 
 
 Technology stack
 ----------------

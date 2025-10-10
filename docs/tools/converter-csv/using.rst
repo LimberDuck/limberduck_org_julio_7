@@ -18,7 +18,18 @@ Help menu
 Check for Update
 ================
 
+.. versionadded:: v0.5.0
+   It will notify you automatically with every run of the **Converter CSV** if a new version is available.
+
 Select ``Help > Check for Update`` option to check if you are using the latest version of **Converter CSV**.
+
+Check Announcements
+===================
+
+.. versionadded:: v0.5.0
+   It will fetch latest LimberDuck's announcements with every run of the **Converter CSV**.
+
+Select ``Help > Check Announcements`` option to fetch latest LimberDuck's announcements.
 
 Documentation
 =============

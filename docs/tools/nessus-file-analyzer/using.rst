@@ -97,7 +97,19 @@ Help menu
 Check for Update
 ================
 
+.. versionadded:: v0.11.0
+   It will notify you automatically with every run of the **nessus file analyzer (NFA)** if a new version is available.
+
 Select ``Help > Check for Update`` option to check if you are using the latest version of **nessus file analyzer (NFA)**.
+
+Check Announcements
+===================
+
+.. versionadded:: v0.11.0
+   It will fetch latest LimberDuck's announcements with every run of the **nessus file analyzer (NFA)**.
+
+Select ``Help > Check Announcements`` option to fetch latest LimberDuck's announcements.
+
 
 Documentation
 =============

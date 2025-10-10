@@ -3,7 +3,7 @@
 Converter CSV
 =============
 
-|converter_csv_pepy_downloads| |github_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
+|converter_csv_pepy_downloads| |github_downloads_latest_release| |github_downloads_all_releases| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 .. image:: ../../_static/img/LimberDuck-converter-csv-logo.png
    :alt: LimberDuck converter-csv logo
@@ -115,9 +115,13 @@ Stargazers over time
     :target: https://pepy.tech/projects/converter-csv
     :alt: pepy.tech - Total Downloads
 
-.. |github_downloads| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/total?style=social&logo=GitHub
+.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/total?style=social&label=all%20releases%20downloads&logo=GitHub
    :target: https://github.com/LimberDuck/converter-csv/releases
    :alt: GitHub Downloads (all assets, all releases)
+
+.. |github_downloads_latest_release| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/latest/total?style=social&label=latest%20release%20downloads&logo=GitHub
+   :target: https://github.com/LimberDuck/converter-csv/releases/latest
+   :alt: GitHub Downloads (all assets, latest release)
 
 ----
 

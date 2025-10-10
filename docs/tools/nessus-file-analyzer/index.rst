@@ -3,7 +3,7 @@
 nessus file analyzer (NFA)
 ==========================
 
-|nfa_pepy_downloads| |github_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
+|nfa_pepy_downloads| |github_downloads_latest_release| |github_downloads_all_releases| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 
 
 .. image:: ../../_static/img/LimberDuck-nessus-file-analyzer-logo.png
    :alt: LimberDuck nessus-file-analyzer logo
@@ -181,9 +181,13 @@ Stargazers over time
     :target: https://pepy.tech/projects/nessus-file-analyzer
     :alt: pepy.tech - Total Downloads
 
-.. |github_downloads| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/total?style=social&logo=GitHub
+.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/total?style=social&label=all%20releases%20downloads&logo=GitHub
    :target: https://github.com/LimberDuck/nessus-file-analyzer/releases
    :alt: GitHub Downloads (all assets, all releases)
+
+.. |github_downloads_latest_release| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/latest/total?style=social&label=latest%20release%20downloads&logo=GitHub
+   :target: https://github.com/LimberDuck/nessus-file-analyzer/releases/latest
+   :alt: GitHub Downloads (all assets, latest release)
 
 .. toctree::
    :hidden:

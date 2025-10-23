@@ -9,7 +9,10 @@ Building
     Since ``v0.10.0`` nessus file analyzer (NFA) comes with pre-built binaries for Windows, 
     Linux and macOS. You can download the latest version from 
     `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page. 
-    You can still install it with ``pip`` and build it from source code if you want.
+    Read more about it in :ref:`build-version-limberduck-nfa` section.
+
+    You can still install it with ``pip`` and build it from source code if you want. 
+    Follow :doc:`installation` instruction to install from |PyPI|.
 
 .. note::
    This step is optional.

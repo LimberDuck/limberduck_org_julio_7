@@ -4,10 +4,21 @@
 Settings
 ########
 
+Auto-detect separator
+#####################
+
+.. versionadded:: v0.6.0
+    You can enable/disable auto-detect of separator in CSV files.
+
+Mark checkbox :bdg-secondary-line:`Auto-detect separator` to automatically detected separators such as 
+``,``, ``;``, ``tab``, ``|`` and ``:`` based on the first 5 lines. This option is enabled by default. Disable it 
+to set the separator manually with Change separator option.
+
 Change separator
 ################
 
-Click :bdg-secondary:`Change` button (next to **separator** filed) to change separator to one you have in your |csv| file, e.g., ``;``.
+If you don't use option to :bdg-secondary-line:`Auto-detect separator` you can click :bdg-secondary:`Change` 
+button (next to **separator** filed) to change separator to one you have in your |csv| file, e.g., ``;``.
 
 Change target directory
 #######################

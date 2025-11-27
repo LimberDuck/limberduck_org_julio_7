@@ -4,13 +4,43 @@
 Using
 #####
 
-1. Go to Menu *File*.
-2. Choose one of below options:
-    - :bdg-secondary-line:`Open file-s` if you want to open one or more |csv| files at once.
-    - :bdg-secondary-line:`Open directory` if you want to open all |csv| files from selected directory and its subdirectories.
-3. Click :bdg-secondary:`Start` button to initiate conversion of all selected files.
-4. Click :bdg-secondary:`Open` button to open target directory where converted file has been saved.
+Open CSV files
+##############
 
+You have a few possibilities to open your |csv| files in **Converter CSV by LimberDuck**
+
+**OPTION 1** - by opening file\\-s
+
+1. Open **Converter CSV by LimberDuck**.
+2. Go to Menu *File*.
+3. Choose *Open file\\-s* if you want to open one or more |csv| files at once.
+
+**OPTION 2** - by opening directory
+
+1. Open **Converter CSV by LimberDuck**.
+2. Go to Menu *File*.
+3. Choose *Open directory* if you want to open all |csv| files from selected directory and its subdirectories.
+
+**OPTION 3** - by use of |OS| contextual menu
+
+1. On |OS| level select one or more |csv| files in your |OS| file browser.
+2. Click |RMB| on selected file\\-s and choose from contextual menu option *Open with...*.
+3. Choose **Converter CSV by LimberDuck** to open selected file\\-s.
+
+**OPTION 4** - by file\\-s Drag & Drop
+
+1. On |OS| level select one or more |csv| files in your |OS| file browser.
+2. Simple drag and drop selected file\\-s on **Converter CSV by LimberDuck** window.
+
+**OPTION 5** - by directory Drag & Drop
+
+1. On |OS| level select one or more directories containing |csv| files in your |OS| file browser. 
+2. Simple drag and drop selected directory or directories on **Converter CSV by LimberDuck** window.
+
+**Next**:
+
+1. Click :bdg-secondary:`Start` button to initiate conversion of all selected files.
+2. Click :bdg-secondary:`Open` button to open target directory where converted file has been saved.
 
 Help menu
 #########

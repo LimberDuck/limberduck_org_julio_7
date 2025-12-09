@@ -78,7 +78,7 @@ html_theme_options = {
                 {
                     "title": "Converter CSV",
                     "url": "tools/converter-csv/index",
-                    "summary": "Convert CSV files to XLSX format",
+                    "summary": "Bulk convert CSV files to XLSX format",
                 },
                 {
                     "title": "TNSCM",

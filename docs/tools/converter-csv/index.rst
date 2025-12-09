@@ -1,4 +1,4 @@
-:description: GUI tool which enables you to convert large CSV files files to XLSX files.
+:description: GUI tool that enables you to convert CSV files to XLSX files in bulk.
 
 Converter CSV
 =============
@@ -12,9 +12,13 @@ Converter CSV
    :target: .
 
 This is a |GUI| tool which lets you convert multiple large |csv| files to |xlsx| files 
-keeping your operational memory usage at a low level. You can run it on your 
-operating system no matter if it is Windows, MacOS or GNU Linux. It's free and Open 
-Source [#]_ tool.
+keeping your operational memory usage at a low level.
+Just drag and drop |csv| files or folders containing |csv| files onto the application window, 
+set your preferences, and start the conversion process. 
+Converter CSV will automatically detect separators such as 
+``,``, ``;``, ``tab``, ``|`` and ``:`` used in the files.
+Works on Windows, macOS or GNU Linux.
+It's free and Open Source [#]_ tool.
 
 .. grid:: 2 3 4 4
 

@@ -31,7 +31,7 @@ LimberDuck
       |nfr_pepy_downloads| |nfr_stars_from_users|
 
       CLI tool and python module to parse nessus files with VA scan results 
-      conducted with *Tenable Nessus* or *Tenable Security Center*.
+      conducted with Tenable Nessus or Tenable Security Center.
 
 
     .. grid-item-card:: :octicon:`browser` nessus file analyzer (NFA)
@@ -40,7 +40,7 @@ LimberDuck
       |nfa_pepy_downloads| |nfa_stars_from_users|
       
       GUI tool to generate reports from VA scan results conducted with 
-      *Tenable Nessus* or *Tenable Security Center*.
+      Tenable Nessus or Tenable Security Center.
 
     .. grid-item-card:: :octicon:`browser` Converter CSV
       :link: tools/converter-csv/
@@ -54,14 +54,14 @@ LimberDuck
       
       |tnscm_pepy_downloads| |tnscm_stars_from_users|
 
-      CLI tool to manage *Tenable Nessus* via API.
+      CLI tool to manage Tenable Nessus via API.
 
     .. grid-item-card:: :octicon:`terminal` TSCCM
       :link: tools/tsccm/
       
       |tsccm_pepy_downloads| |tsccm_stars_from_users|
 
-      CLI tool to manage *Tenable Security Center* via API.
+      CLI tool to manage Tenable Security Center via API.
 
     .. grid-item-card:: :octicon:`rocket` and more...
       :link: about/

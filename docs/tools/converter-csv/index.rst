@@ -16,7 +16,7 @@ keeping your operational memory usage at a low level.
 Just drag and drop |csv| files or folders containing |csv| files onto the application window, 
 set your preferences, and start the conversion process. 
 Converter CSV will automatically detect separators such as 
-``,``, ``;``, ``tab``, ``|`` and ``:`` used in the files.
+``,``, ``;``, ``tab``, ``|`` and ``:``.
 Works on Windows, macOS or GNU Linux.
 It's free and Open Source [#]_ tool.
 

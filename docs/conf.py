@@ -9,7 +9,7 @@
 import ablog
 
 project = 'LimberDuck'
-copyright = 'Copyright &copy; 2018-2025, <a href="https://damiankrawczyk.com">Damian Krawczyk</a>'
+copyright = 'Copyright &copy; 2018-2026, <a href="https://damiankrawczyk.com">Damian Krawczyk</a>'
 author = 'Damian Krawczyk'
 release = ''
 

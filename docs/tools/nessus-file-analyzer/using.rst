@@ -50,28 +50,28 @@ Select one or more report types: scan, host, vulnerabilities, noncompliance.
   .. seealso::
     :class: dropdown
 
-    Check :doc:`target-file/section-scan` description to get more details.
+    Check :doc:`standard-reports/section-scan` description to get more details.
 
 - ``host`` - if you want to see sum-up from point of view of particular scanned host. 
 
   .. seealso::
     :class: dropdown
 
-    Check :doc:`target-file/section-host` description to get more details.
+    Check :doc:`standard-reports/section-host` description to get more details.
 
 - ``vulnerabilities`` - if you want to see list of vulnerabilities reported in this scan for all scanned hosts. 
 
   .. seealso::
     :class: dropdown
 
-    Check :doc:`target-file/section-vulnerabilities` description to get more details.
+    Check :doc:`standard-reports/section-vulnerabilities` description to get more details.
 
 - ``noncompliance`` - if you want to see list of noncompliance reported in this scan for all scanned hosts. 
 
   .. seealso::
     :class: dropdown
 
-    Check :doc:`target-file/section-noncompliance` description to get more details.
+    Check :doc:`standard-reports/section-noncompliance` description to get more details.
 
 Configure
 #########

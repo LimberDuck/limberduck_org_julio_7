@@ -21,7 +21,7 @@ type like source file name with path, policy name and more.
     This option is available for all report types.
 
 .. seealso::
-    Check :doc:`target-file/index` descriptions to get more details.
+    Check :doc:`standard-reports/index` descriptions to get more details.
 
 filter out None results
 -----------------------

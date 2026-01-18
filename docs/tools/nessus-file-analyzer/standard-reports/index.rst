@@ -1,6 +1,6 @@
-####################
-Target file
-####################
+################
+Standard reports
+################
 
 Generated target file can consist of up to four sections:
 

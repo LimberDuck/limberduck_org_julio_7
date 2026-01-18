@@ -197,4 +197,5 @@ Stargazers over time
    building
    using
    settings
-   target-file/index
+   standard-reports/index
+   advanced-reports/index

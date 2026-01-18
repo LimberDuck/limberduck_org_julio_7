@@ -25,6 +25,7 @@ extensions = [
     "sphinx_togglebutton",
     "ablog",
     "sphinx.ext.intersphinx",
+    "myst_parser",
     "sphinx_iconify",
 ]
 

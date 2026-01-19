@@ -16,6 +16,9 @@ identified on scanned hosts along with their versions.
 
 For detailed usage guides, check out :doc:`../tools/nessus-file-analyzer/advanced-reports/index` instructions.
 
+.. attention::
+   As a temporary measure, if you want to use Software Enumeration report you need to install or 
+   upgrade NFA via ``pip``, check :doc:`../tools/nessus-file-analyzer/installation` instruction.
 
 .. hint:: 
    You can download the latest version of **nessus file analyzer (NFA)** from

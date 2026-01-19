@@ -6,6 +6,10 @@ Advanced reports
 generate additional advanced reports based on data extracted from specific Nessus plugins. 
 These reports provide deeper insights into the Nessus scan results. 
 
+.. attention::
+   As a temporary measure, if you want to use Software Enumeration report you need to install or 
+   upgrade NFA via ``pip``, check :doc:`../installation` instruction.
+
 The advanced reports currently available are:
 
 - :doc:`software-enumeration/index` - list of all software identified on scanned hosts along with their versions.

@@ -6,6 +6,10 @@ List of installed software is based on Nessus plugin outputs listed below:
 - Plugin ID [20811](https://www.tenable.com/plugins/nessus/20811): Microsoft Windows Installed Software Enumeration (credentialed check)
 - Plugin ID [22869](https://www.tenable.com/plugins/nessus/22869): Software Enumeration (SSH)
 
+```{attention}
+As a temporary measure, if you want to use Software Enumeration report you need to install or 
+upgrade NFA via ``pip``, check [Installation](../../installation) instruction.
+```
 
 ```{attention}
 The *Software Enumeration* report plugin for **[LimberDuck] [NFA (nessus file analyzer)]** has been tested on results reported for Operating Systems:

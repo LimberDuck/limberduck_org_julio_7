@@ -16,14 +16,14 @@ identified on scanned hosts along with their versions.
 
 For detailed usage guides, check out :doc:`../tools/nessus-file-analyzer/advanced-reports/index` instructions.
 
-.. attention::
-   As a temporary measure, if you want to use Software Enumeration report you need to install or 
-   upgrade NFA via ``pip``, check :doc:`../tools/nessus-file-analyzer/installation` instruction.
+.. .. attention::
+..    As a temporary measure, if you want to use Software Enumeration report you need to install or 
+..    upgrade NFA via ``pip``, check :doc:`../tools/nessus-file-analyzer/installation` instruction.
 
 .. hint:: 
    You can download the latest version of **nessus file analyzer (NFA)** from
    `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page.
 
-   If you decide to download from GitHub Releases, choose version ``0.12.0`` or later.
+   If you decide to download from GitHub Releases, choose version ``0.12.4`` or later.
    Prefer Python? You can still install it directly from |PyPI| using ``pip`` and build them from source.
    Read more on :ref:`nfa-upgrade` page.

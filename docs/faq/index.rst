@@ -3,6 +3,17 @@
 FAQ
 ===
 
+Why NFA returns "not well-formed (invalid token)" error?
+--------------------------------------------------------
+
+This error may occur when you are trying to parse a ``.nessus`` file directly from 
+`Nessus Default Data Directories <https://github.com/LimberDuck/nessus-cheat-sheet/blob/main/nessus-cheat-sheet.adoc#data-directories>`_
+, such as: ``%PROGRAMDATA%\Nessus\nessus\users\<username>\reports``.
+
+``.nessus`` files stored in Nessus Default Data Directories are not plain text files.
+
+To properly parse ``.nessus`` files with **nessus file analyzer (NFA)** you need to first export the scan report from Nessus web interface as a ``.nessus`` file.
+
 Can LimberDuck tools split .nessus files?
 -----------------------------------------
 Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader (NFR)** has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
@@ -10,8 +21,8 @@ Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader (NFR)*
 Check out the new feature in the documentation: :ref:`nfr-file-split`.
 
 
-Why did the nessus file analyzer (nfa) return an error - has host bits set?
----------------------------------------------------------------------------
+Why NFA returns "has host bits set" error?
+------------------------------------------
 
 Take a look at the **example** line log:
 

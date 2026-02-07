@@ -48,7 +48,7 @@ html_logo = "_static/img/LimberDuck-logo.png"
 html_favicon = "_static/img/favicon.ico"
 
 html_theme_options = {
-    "announcement": "<b>NFA</b> v0.12.0 with Advanced reports! Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
+    "announcement": "<b>NFR</b> v0.8.0 with Nessus plugins publication date charts! Check out the latest <a href='https://limberduck.org/en/latest/blog/index.html'>News</a>!",
     "accent_color": "orange",
     "github_url": "https://github.com/LimberDuck",
     "linkedin_url": "https://www.linkedin.com/company/LimberDuck",

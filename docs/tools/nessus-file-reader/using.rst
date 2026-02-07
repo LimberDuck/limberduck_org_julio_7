@@ -344,6 +344,210 @@ See description of columns returned in ``nfr scan --plugin-severity``.
    EPSS - Exploit Prediction Scoring System score of plugin
    EPSS% - Exploit Prediction Scoring System score of plugin in percentage
 
+.. _nfr-scan-plugin-publication-date-option:
+
+``nfr scan --plugin-publication-date``
+-------------------------------------
+
+.. versionadded:: v0.8.0
+
+   Number of plugins by plugin publication date.
+   :ref:`nfr-upgrade` now!
+
+See examples below on how to check *number of plugins* by *plugin publication date* grouped by ``day``, ``month`` or ``year`` 
+with different output formats like ``table``, ``bar chart``, ``line chart`` or ``heatmap``.
+
+.. admonition:: Why is it worth to check plugin publication date?
+   :class: hint
+
+   It allows you to quickly identify how many previously recognized vulnerabilities have not yet been remediated.
+   
+   Some of the plugins are associated with |CVE| identifiers, in these cases the plugin publication date is 
+   usually close to the |CVE| publication date.
+
+   | **Example:**
+   | Plugin ID: `83344 <https://www.tenable.com/plugins/nessus/83344>`_
+   | Plugin name: Ubuntu 14.04 LTS : Libtasn1 vulnerability (USN-2604-1)
+   | Plugin publication date: 5/12/2015
+   | CVE: `CVE-2015-3622 <https://www.tenable.com/cve/CVE-2015-3622>`_
+   | CVE publication date: 2015-05-12
+
+.. tip::
+   
+   Use filter ``-f "[?risk_factor != 'None']"`` to see only these plugins which have assigned risk factor.
+   Thank to this you will omit informational plugins.
+
+   Go to :ref:`nfr-scan-filter` section and check available filters to limit data returned by this command.
+
+``nfr scan --plugin-publication-date table day``
+................................................
+
+.. code-block:: shell
+
+   nfr scan -plpd table day -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. code-block:: shell
+   :caption: Example table showing the number of plugins by publication date.
+
+   plugin_publication_date      number_of_plugins
+   -------------------------  -------------------
+   1999-08-01                                   2
+   2001-05-05                                   3
+   2004-04-27                                   2
+   2009-01-23                                   2
+   2009-10-27                                   2
+   2009-11-23                                   2
+   2010-04-03                                   1
+   2010-11-23                                   2
+   2010-12-15                                   9
+   2012-01-17                                   3
+   2012-01-19                                   2
+   2013-10-28                                   2
+   ... more lines ...
+
+``nfr scan --plugin-publication-date table month``
+..................................................
+
+.. code-block:: shell
+
+   nfr scan -plpd table month -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. code-block:: shell
+   :caption: Example table showing the number of plugins by publication year and month.
+
+   plugin_publication_date      number_of_plugins
+   -------------------------  -------------------
+   1999-08                                      2
+   2001-05                                      3
+   2004-04                                      2
+   2009-01                                      2
+   2009-10                                      2
+   2009-11                                      2
+   2010-04                                      1
+   2010-11                                      2
+   2010-12                                      9
+   2012-01                                      5
+   2013-10                                      2
+   ... more lines ...
+
+``nfr scan --plugin-publication-date table year``
+.................................................
+
+.. code-block:: shell
+
+   nfr scan -plpd table year -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. code-block:: shell
+   :caption: Example table showing the number of plugins by publication year.
+
+   plugin_publication_date    number_of_plugins
+   -------------------------  -------------------
+                        1999                    2
+                        2001                    3
+                        2004                    2
+                        2009                    6
+                        2010                   12
+                        2012                    5
+                        2013                    4
+                        2016                    1
+                        2020                    4
+                        2021                   35
+                        2022                    2
+                        2023                    9
+                        2024                    9
+                        2025                   51
+
+``nfr scan --plugin-publication-date bar day``
+..............................................
+
+.. code-block:: shell
+
+   nfr scan -plpd bar day -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-bar-day.png
+    :alt: Example bar chart showing the number of plugins by publication date.
+    :align: center
+
+    Example bar chart showing the number of plugins by publication date.
+
+``nfr scan --plugin-publication-date bar month``
+................................................
+
+.. code-block:: shell
+   
+   nfr scan -plpd bar month -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-bar-month.png
+    :alt: Example bar chart showing the number of plugins by publication year and month.
+    :align: center
+
+    Example bar chart showing the number of plugins by publication year and month.
+
+``nfr scan --plugin-publication-date bar year``
+...............................................
+
+.. code-block:: shell
+   
+   nfr scan -plpd bar year -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-bar-year.png
+    :alt: Example bar chart showing the number of plugins by publication year.
+    :align: center
+
+    Example bar chart showing the number of plugins by publication year.
+
+``nfr scan --plugin-publication-date line day``
+...............................................
+
+.. code-block:: shell
+   
+   nfr scan -plpd line day -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-line-day.png
+    :alt: Example line chart showing the number of plugins by publication date.
+    :align: center
+
+    Example line chart showing the number of plugins by publication date.
+
+``nfr scan --plugin-publication-date line month``
+.................................................
+
+.. code-block:: shell
+   
+   nfr scan -plpd line month -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-line-month.png
+    :alt: Example line chart showing the number of plugins by publication year and month.
+    :align: center
+
+    Example line chart showing the number of plugins by publication year and month.
+
+``nfr scan --plugin-publication-date line year``
+................................................
+
+.. code-block:: shell
+
+   nfr scan -plpd line year -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-line-year.png
+    :alt: Example line chart showing the number of plugins by publication year.
+    :align: center
+
+    Example line chart showing the number of plugins by publication year.
+
+``nfr scan --plugin-publication-date heatmap year``
+...................................................
+
+.. code-block:: shell
+
+   nfr scan -plpd heatmap year -f "[?risk_factor != 'None']" file1 dir1 dir2
+
+.. figure:: ../../_static/img/limberduck-nfr-plpd-heatmap-year.png
+    :alt: Example heatmap showing the number of plugins by publication year and month.
+    :align: center
+
+    Example heatmap showing the number of plugins by publication year and month.
+
 .. _nfr-scan-filter:
 
 ``nfr scan --filter``
@@ -354,10 +558,14 @@ See description of columns returned in ``nfr scan --plugin-severity``.
    Filter data returned by ``--plugin-severity`` to specific values.
    :ref:`nfr-upgrade` now!
 
-Use ``-f`` or ``--filter`` to filter data returned by ``--plugin-severity`` to specific values. 
-Read about `JMESPath <https://jmespath.org>`_.
+.. versionadded:: v0.8.0
 
-Example filters:
+   Filter data returned by ``--plugin-publication-date`` to specific values.
+   :ref:`nfr-upgrade` now!
+
+Use ``-f`` or ``--filter`` to filter data to specific values. Read about `JMESPath <https://jmespath.org>`_.
+
+Example filters for :ref:`nfr-scan-plugin-severity` command:
 
 .. code-block:: shell
    :caption: Filter plugins with Plugin ID equal to ``50686``.
@@ -379,6 +587,29 @@ Example filters:
    :caption: Filter plugins with |CVSSv3| score greater than ``3.8`` and |VPR| score greater than ``4.0``.
 
    "[?CVSSv3 > '3.8' && VPR > '4.0']"
+
+Example filters for :ref:`nfr-scan-plugin-publication-date-option` command:
+
+.. code-block:: shell
+   :caption: Filter plugins with Risk Factor not equal to ``None``.
+
+   "[?risk_factor != 'None']"
+
+.. code-block:: shell
+   :caption: Filter plugins with Severity higher then Medium (``0`` - Informational, ``1`` - Low, ``2`` - Medium, ``3`` - High, ``4`` - Critical)
+
+   "[?severity > '2']"
+
+.. code-block:: shell
+   :caption: Filter plugins with Plugin Type equal to ``local``.
+
+   "[?plugin_type == 'local']"
+
+.. code-block:: shell
+   :caption: Filter plugins with Plugin ID equal to ``19506``.
+
+   "[?plugin_id == '19506']"
+
 
 ``nfr scan --policy-summary``
 -----------------------------

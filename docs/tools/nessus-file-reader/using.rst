@@ -375,7 +375,7 @@ with different output formats like ``table``, ``bar chart``, ``line chart`` or `
 .. tip::
    
    Use filter ``-f "[?risk_factor != 'None']"`` to see only these plugins which have assigned risk factor.
-   Thank to this you will omit informational plugins.
+   Thanks to this you will omit informational plugins from the output.
 
    Go to :ref:`nfr-scan-filter` section and check available filters to limit data returned by this command.
 

@@ -171,6 +171,7 @@ rst_prolog =  """
 .. |API| replace:: :abbr:`API (Application Programming Interface)`
 .. |CSV| replace:: :abbr:`CSV (Comma-separated values)`
 .. |SSL| replace:: :abbr:`SSL (Secure Sockets Layer)`
+.. |JSON| replace:: :abbr:`JSON (JavaScript Object Notation)`
 
 .. Security:
 .. |CVE| replace:: :abbr:`CVE (Common Vulnerabilities and Exposures)`

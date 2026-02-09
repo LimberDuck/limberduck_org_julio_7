@@ -23,6 +23,10 @@ This tool will let you perform actions like:
 - server (``status``, ``licensed IPs``, ``version``)
 - user (``list``)
 
+.. seealso:: 
+
+   Check out :doc:`using` section to see how to use TSCCM and get the most out of it.
+
 .. grid:: 2 2 2 4
 
     .. grid-item::

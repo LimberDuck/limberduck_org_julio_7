@@ -19,6 +19,10 @@ This tool will let you perform actions like:
 - advanced settings (``list``)
 - user (``list``)
 
+.. seealso:: 
+
+   Check out :doc:`using` section to see how to use TNSCM and get the most out of it.
+
 .. grid:: 2 2 2 4
 
     .. grid-item::

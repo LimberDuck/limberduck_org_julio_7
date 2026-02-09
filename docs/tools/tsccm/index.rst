@@ -87,6 +87,12 @@ Stargazers over time
 
     TSCCM GitHub repository stars over time.
 
+.. toctree::
+   :hidden:
+
+   installation
+   running
+   using
 
 ----
 

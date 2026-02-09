@@ -170,6 +170,7 @@ rst_prolog =  """
 .. |IP| replace:: :abbr:`IP (Intrnet Protocol Address)`
 .. |API| replace:: :abbr:`API (Application Programming Interface)`
 .. |CSV| replace:: :abbr:`CSV (Comma-separated values)`
+.. |SSL| replace:: :abbr:`SSL (Secure Sockets Layer)`
 
 .. Security:
 .. |CVE| replace:: :abbr:`CVE (Common Vulnerabilities and Exposures)`

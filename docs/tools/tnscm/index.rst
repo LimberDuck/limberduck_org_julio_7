@@ -82,6 +82,13 @@ Stargazers over time
 
     TNSCM GitHub repository stars over time.
 
+.. toctree::
+   :hidden:
+
+   installation
+   running
+   using
+
 ----
 
 .. rubric:: Footnotes

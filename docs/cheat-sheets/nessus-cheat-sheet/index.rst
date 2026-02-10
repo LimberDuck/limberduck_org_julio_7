@@ -33,6 +33,17 @@ Nessus Cheat Sheet
 
          :octicon:`home;1em;sd-color-primary-text` project page
 
+Stargazers over time
+--------------------
+
+.. figure:: https://starchart.cc/LimberDuck/nessus-cheat-sheet.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
+    :target: https://starchart.cc/LimberDuck/nessus-cheat-sheet
+    :alt: Stargazers over time
+    :align: center
+
+    Nessus Cheat Sheet GitHub repository stars over time.
+
+
 .. |stars_from_users| image:: https://img.shields.io/github/stars/LimberDuck/nessus-cheat-sheet?label=Stars&style=social
     :target: https://github.com/LimberDuck/nessus-cheat-sheet
     :alt: GitHub Stars

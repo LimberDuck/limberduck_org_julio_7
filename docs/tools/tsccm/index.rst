@@ -66,7 +66,7 @@ This tool will let you perform actions like:
          :octicon:`issue-opened;1em;sd-color-primary-text` Issues
 
 
-.. figure:: ../../_static/img/limberduck-tsccm.png
+.. figure:: ../../_static/img/tsccm.png
    :width: 600
    :align: center
 

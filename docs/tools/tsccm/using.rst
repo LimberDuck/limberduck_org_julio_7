@@ -161,12 +161,12 @@ perform insecure SSL connections and transfers
 
 data format to display [table,json,csv]  [default: (table)]
 
-``--filter``
-------------
+.. ``--filter``
+.. ------------
 
--f, --filter TEXT
+.. -f, --filter TEXT
 
-filter data with JMESPath. See https://jmespath.org/ for more information and examples.
+.. filter data with JMESPath. See https://jmespath.org/ for more information and examples.
 
 ``--verbose``
 -------------

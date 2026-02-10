@@ -181,9 +181,9 @@ Stargazers over time
     :target: https://pepy.tech/projects/nessus-file-analyzer
     :alt: pepy.tech - Total Downloads
 
-.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/total?style=social&label=all%20releases%20downloads&logo=GitHub
+.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/total?style=social&label=All%20downloads%20since%20release%20v0.10&logo=GitHub
    :target: https://github.com/LimberDuck/nessus-file-analyzer/releases
-   :alt: GitHub Downloads (all assets, all releases)
+   :alt: GitHub Downloads (all assets, all releases) since v0.10
 
 .. |github_downloads_latest_release| image:: https://img.shields.io/github/downloads/LimberDuck/nessus-file-analyzer/latest/total?style=social&label=latest%20release%20downloads&logo=GitHub
    :target: https://github.com/LimberDuck/nessus-file-analyzer/releases/latest

@@ -119,7 +119,7 @@ Stargazers over time
     :target: https://pepy.tech/projects/converter-csv
     :alt: pepy.tech - Total Downloads
 
-.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/total?style=social&label=all%20releases%20downloads&logo=GitHub
+.. |github_downloads_all_releases| image:: https://img.shields.io/github/downloads/LimberDuck/converter-csv/total?style=social&label=All%20downloads%20since%20release%20v0.4.1&logo=GitHub
    :target: https://github.com/LimberDuck/converter-csv/releases
    :alt: GitHub Downloads (all assets, all releases) since v0.4.1
 

@@ -26,7 +26,7 @@ It's free and Open Source [#]_ tool.
 
       .. button-link:: https://github.com/LimberDuck/converter-csv/releases
          :color: primary
-         :tooltip: Downloads
+         :tooltip: Download
 
          :octicon:`download;1em;sd-color-primary-text` Download
 

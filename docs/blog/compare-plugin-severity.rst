@@ -110,7 +110,7 @@ Thank to the newest **nessus file analyzer (NFA)** and **nessus file reader (NFR
 
    Check out new **NFR** feature in the documentation: :ref:`nfr-scan-plugin-severity`.
    
-   Check out new **NFA** columns details in :doc:`../tools/nessus-file-analyzer/target-file/section-vulnerabilities`.
+   Check out new **NFA** columns details in :doc:`../tools/nessus-file-analyzer/standard-reports/section-vulnerabilities`.
 
 .. important:: 
    

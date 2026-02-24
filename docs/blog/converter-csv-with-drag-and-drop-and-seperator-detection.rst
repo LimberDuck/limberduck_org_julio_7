@@ -4,8 +4,8 @@ Converter CSV with Drag and Drop and Separator Detection
 ========================================================
 
 .. post:: 2025-11-27 07:28:20
-   :tags: converter-csv
-   :category: tools, news
+   :tags: Converter CSV
+   :category: Tools, News
    :author: Damian
 
 The latest releases of **Converter CSV by LimberDuck** now include  

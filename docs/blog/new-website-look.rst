@@ -4,8 +4,8 @@ New website look
 ================
 
 .. post:: 2024-07-26 15:35:33
-   :tags: website
-   :category: documentation
+   :tags: Website
+   :category: Documentation, News
    :author: Damian
 
 LimberDuck's main website has been updated with a new look using the `Shibuya <https://shibuya.lepture.com>`_ 

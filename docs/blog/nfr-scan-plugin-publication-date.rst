@@ -4,7 +4,7 @@ NFR v0.8.0: New scan command option - Plugin Publication Date
 =============================================================
 
 .. post:: 2026-02-07 08:05:03
-   :tags: nfr
+   :tags: NFR
    :category: Tools, News
    :author: Damian
 

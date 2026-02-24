@@ -4,8 +4,8 @@ NFA and Converter CSV - ready to download and run out of the box
 ================================================================
 
 .. post:: 2025-09-08 20:00:00
-   :tags: nfa, converter-csv
-   :category: tools
+   :tags: NFA, Converter CSV
+   :category: Tools, News
    :author: Damian
 
 The latest releases of **nessus file analyzer (NFA)** and **Converter CSV** now include  

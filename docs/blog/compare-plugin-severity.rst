@@ -4,8 +4,8 @@ NFA v0.8.0 and NFR v0.6.0: Compare plugin severity
 ==================================================
 
 .. post:: 2025-06-28 16:43:40
-   :tags: nfr, nfa
-   :category: tools
+   :tags: NFR, NFA
+   :category: Tools, News
    :author: Damian
 
 I'm excited to introduce a powerful new feature in **nessus file analyzer (NFA) v0.8.0** and **nessus file reader (NFR) v0.6.0**.  

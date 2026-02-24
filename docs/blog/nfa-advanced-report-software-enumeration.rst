@@ -4,7 +4,7 @@ NFA v0.12.0: Advanced Report - Software Enumeration
 ===================================================
 
 .. post:: 2026-01-18 15:01:18
-   :tags: nfa
+   :tags: NFA
    :category: Tools, News
    :author: Damian
 

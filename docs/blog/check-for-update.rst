@@ -4,8 +4,8 @@ Check for Update option in all LimberDuck Tools
 ===============================================
 
 .. post:: 2025-09-01 20:00:00
-   :tags: nfr, nfa, tnscm, tsccm, converter-csv
-   :category: tools
+   :tags: NFR, NFA, TNSCM, TSCCM, Converter CSV
+   :category: Tools, News
    :author: Damian
 
 New feature which will let you to quickly verify if you are running the latest version of LimberDuck tool. 

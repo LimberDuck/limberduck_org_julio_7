@@ -88,6 +88,15 @@ Technology stack
    :target: https://python.org
    :width: 220px
 
+Latest NFR news
+---------------
+
+.. postlist::
+   :language: en
+   :date: %Y-%m-%d
+   :format: {date} - {title}
+   :list-style: circle
+   :tags: NFR
 
 Stargazers over time
 --------------------

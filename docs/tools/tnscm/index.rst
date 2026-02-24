@@ -75,6 +75,15 @@ Technology stack
    :target: https://python.org
    :width: 220px
 
+Latest TNSCM news
+---------------
+
+.. postlist::
+   :language: en
+   :date: %Y-%m-%d
+   :format: {date} - {title}
+   :list-style: circle
+   :tags: TNSCM
 
 Stargazers over time
 --------------------

@@ -103,6 +103,16 @@ Technology stack
    :target: https://riverbankcomputing.com/software/pyqt
    :width: 60px
 
+Latest NFA news
+---------------
+
+.. postlist::
+   :language: en
+   :date: %Y-%m-%d
+   :format: {date} - {title}
+   :list-style: circle
+   :tags: NFA
+
 Testimonials
 ------------
 

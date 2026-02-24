@@ -29,9 +29,18 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
 
       .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/releases
          :color: primary
-         :tooltip: Release notes and downloads
+         :tooltip: Download
 
          :octicon:`download;1em;sd-color-primary-text` Download
+
+    .. grid-item::
+
+      .. button-link:: https://github.com/LimberDuck/nessus-file-analyzer/releases
+         :color: primary
+         :outline:
+         :tooltip: Release notes
+
+         :octicon:`note;1em;sd-color-primary-text` Release notes
 
     .. grid-item::
 

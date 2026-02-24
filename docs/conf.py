@@ -84,12 +84,12 @@ html_theme_options = {
                 {
                     "title": "TNSCM",
                     "url": "tools/tnscm/index",
-                    "summary": "Manage <i>Tenable Nessus</i> via API",
+                    "summary": "Manage <i>Tenable Nessus</i> in CLI via API",
                 },
                 {
                     "title": "TSCCM",
                     "url": "tools/tsccm/index",
-                    "summary": "Manage <i>Tenable Security Center</i> via API",
+                    "summary": "Manage <i>Tenable Security Center</i> in CLI via API",
                 },
             ]
         },

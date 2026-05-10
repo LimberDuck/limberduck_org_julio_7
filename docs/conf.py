@@ -109,8 +109,8 @@ html_theme_options = {
             "title": "Missing feature?",
             "url": "contact/index",
         },
-    ]
-
+    ],
+    "show_ai_links": False,
 }
 
 # html_context = {

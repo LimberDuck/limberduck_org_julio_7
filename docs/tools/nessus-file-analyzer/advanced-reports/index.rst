@@ -22,3 +22,9 @@ The advanced reports currently available are:
    
    software-enumeration/index
 
+.. tip::
+   Are you missing some report type? Do you have an idea for a new report? 
+   Feel free to share your thoughts and suggestions via 
+   `LimberDuck NFA GitHub Discussions`_,
+   `LimberDuck NFA GitHub Issues`_
+   or :doc:`../../../contact/index` us directly.

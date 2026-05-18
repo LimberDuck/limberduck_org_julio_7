@@ -43,35 +43,21 @@ You have a few possibilities to open your nessus files in **nessus file analyzer
 Select report type
 ##################
 
-Select one or more report types: scan, host, vulnerabilities, noncompliance.
+Select one or more report from standard report types: scan, host, vulnerabilities, noncompliance.
 
 - ``scan`` - if you want to see sum-up from point of view of the whole scan. 
-
-  .. seealso::
-    :class: dropdown
-
-    Check :doc:`standard-reports/section-scan` description to get more details.
+  Check :doc:`standard-reports/section-scan` to get more details.
 
 - ``host`` - if you want to see sum-up from point of view of particular scanned host. 
-
-  .. seealso::
-    :class: dropdown
-
-    Check :doc:`standard-reports/section-host` description to get more details.
+  Check :doc:`standard-reports/section-host` to get more details.
 
 - ``vulnerabilities`` - if you want to see list of vulnerabilities reported in this scan for all scanned hosts. 
-
-  .. seealso::
-    :class: dropdown
-
-    Check :doc:`standard-reports/section-vulnerabilities` description to get more details.
+  Check :doc:`standard-reports/section-vulnerabilities` to get more details.
 
 - ``noncompliance`` - if you want to see list of noncompliance reported in this scan for all scanned hosts. 
+  Check :doc:`standard-reports/section-noncompliance` to get more details.
 
-  .. seealso::
-    :class: dropdown
-
-    Check :doc:`standard-reports/section-noncompliance` description to get more details.
+If you need other reports, check :doc:`advanced-reports/index` section to see what else you can get from your Nessus files.
 
 Configure
 #########
@@ -79,6 +65,8 @@ Configure
 Configure **nessus file analyzer (NFA)** to fit target file to your exact needs.
 
 .. seealso::
+    :class: dropdown
+
     Check :doc:`settings` to get more details.
 
 Initialize analyze

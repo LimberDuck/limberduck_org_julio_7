@@ -97,20 +97,23 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
 Technology stack
 ----------------
 
-.. image:: https://www.python.org/static/community_logos/python-logo-generic.svg
+.. https://www.python.org/community/logos/
+.. image:: ../../_static/img/logos/python-logo-only.svg
    :alt: Python logo
    :target: https://python.org
-   :width: 220px
+   :width: 70px
 
-.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Qt_logo_2016.svg/578px-Qt_logo_2016.svg.png
+.. https://www.qt.io/brand/development/logo
+.. image:: ../../_static/img/logos/Qt-logo-neon.svg
    :alt: Qt logo
    :target: https://www.qt.io
    :width: 70px
 
-.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Python_and_Qt.svg/164px-Python_and_Qt.svg.png
+.. https://pl.wikipedia.org/wiki/PyQt
+.. image:: ../../_static/img/logos/Python_and_Qt.svg
    :alt: PyQt logo
    :target: https://riverbankcomputing.com/software/pyqt
-   :width: 60px
+   :width: 80px
 
 Latest NFA news
 ---------------

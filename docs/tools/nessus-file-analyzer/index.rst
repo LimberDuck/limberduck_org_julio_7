@@ -159,8 +159,9 @@ Testimonials
 Stargazers over time
 --------------------
 
-.. figure:: https://starchart.cc/LimberDuck/nessus-file-analyzer.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
-    :target: https://starchart.cc/LimberDuck/nessus-file-analyzer
+.. https://starchart.cc/LimberDuck/nessus-file-analyzer.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
+
+.. figure:: https://repostars.dev/api/embed?repo=LimberDuck%2Fnessus-file-analyzer&theme=lava
     :alt: Stargazers over time
     :align: center
 

@@ -36,8 +36,9 @@ Nessus Cheat Sheet
 Stargazers over time
 --------------------
 
-.. figure:: https://starchart.cc/LimberDuck/nessus-cheat-sheet.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
-    :target: https://starchart.cc/LimberDuck/nessus-cheat-sheet
+.. https://starchart.cc/LimberDuck/nessus-cheat-sheet.svg?background=%23ffffff00&axis=%23E57333&line=%23E57333
+
+.. figure:: https://repostars.dev/api/embed?repo=LimberDuck%2Fnessus-cheat-sheet&theme=lava
     :alt: Stargazers over time
     :align: center
 

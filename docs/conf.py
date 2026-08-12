@@ -67,12 +67,12 @@ html_theme_options = {
             "title": "Tools",
             "children": [
                 {
-                    "title": "nessus file reader (NFR)",
+                    "title": "NFR (nessus file reader)",
                     "url": "tools/nessus-file-reader/index",
                     "summary": "Parse VA scan results from <i>Tenable Nessus</i> and <i>Tenable Security Center</i>",
                 },
                 {
-                    "title": "nessus file analyzer (NFA)",
+                    "title": "NFA (nessus file analyzer)",
                     "url": "tools/nessus-file-analyzer/index",
                     "summary": "Generate reports of VA scan results from <i>Tenable Nessus</i> and <i>Tenable Security Center</i>",
                 },

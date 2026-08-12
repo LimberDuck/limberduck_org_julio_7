@@ -1,6 +1,6 @@
 :description: GUI tool which enables you to analyze nessus files.
 
-nessus file analyzer (NFA)
+NFA (nessus file analyzer)
 ==========================
 
 |nfa_pepy_downloads| |github_downloads_latest_release| |github_downloads_all_releases| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform| 

@@ -25,7 +25,7 @@ LimberDuck
     :padding: 0
     :class-row: surface
 
-    .. grid-item-card:: :octicon:`terminal` nessus file reader (NFR)
+    .. grid-item-card:: :octicon:`terminal` NFR (nessus file reader)
       :link: tools/nessus-file-reader/
       
       |nfr_pepy_downloads| |nfr_stars_from_users|
@@ -34,7 +34,7 @@ LimberDuck
       conducted with Tenable Nessus or Tenable Security Center.
 
 
-    .. grid-item-card:: :octicon:`browser` nessus file analyzer (NFA)
+    .. grid-item-card:: :octicon:`browser` NFA (nessus file analyzer)
       :link: tools/nessus-file-analyzer/
 
       |nfa_pepy_downloads| |nfa_stars_from_users|

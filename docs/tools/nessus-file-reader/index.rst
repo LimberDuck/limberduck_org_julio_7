@@ -1,6 +1,6 @@
 :description: CLI tool and python module which enables you to parse nessus files.
 
-nessus file reader (NFR)
+NFR (nessus file reader)
 ========================
 
 |nfr_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|

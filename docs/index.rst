@@ -139,6 +139,7 @@ Testimonials
    tools/converter-csv/index
    tools/tnscm/index
    tools/tsccm/index
+   tools/lens/index
 
 .. toctree::
    :caption: Notebooks

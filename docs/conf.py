@@ -150,6 +150,9 @@ rst_prolog =  """
 .. |VA| replace:: :abbr:`VA (Vulnerability Assessment)`
 .. |TLDR| replace:: :abbr:`TLDR (Too Long; Didn't Read.)`
 .. |PyPI| replace:: :abbr:`PyPI (The Python Package Index)`
+.. |XML| replace:: :abbr:`XML (Extensible Markup Language)`
+.. |Nmap| replace:: :abbr:`Nmap (Network Mapper)`
+.. |PDF| replace:: :abbr:`PDF (Portable Document Format)`
 
 .. nessus-file-analyzer:
 .. |NFA| replace:: :abbr:`NFA (nessus file analyzer (NFA) by Limberduck)`

@@ -86,43 +86,43 @@ Testimonials
 
    I love the Nessus File Analyzer, so thank you so much for sharing and maintaining.
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    Tested everyday. Works perfect.
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    Brilliant work!
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    This tool is really helpful! Thanks for sharing this.
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    I found nessus file analyzer to be an excellent tool.
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    First of all... Great tool! You did a really great job! Thanks for developing such a wonderful tool!
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 .. pull-quote::
 
    I'm grateful for your software...
 
-   -- nessus file analyzer's user
+   -- |NFA| user
 
 
 .. .. toctree::

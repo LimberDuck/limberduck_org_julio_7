@@ -155,16 +155,16 @@ rst_prolog =  """
 .. |PDF| replace:: :abbr:`PDF (Portable Document Format)`
 
 .. nessus-file-analyzer:
-.. |NFA| replace:: :abbr:`NFA (nessus file analyzer (NFA) by Limberduck)`
-.. |**NFA**| replace:: :abbr:`NFA (nessus file analyzer (NFA) by Limberduck)`
+.. |NFA| replace:: :abbr:`NFA (LimberDuck NFA (nessus file analyzer))`
+.. |**NFA**| replace:: :abbr:`NFA (LimberDuck NFA (nessus file analyzer))`
 .. _nessus-file-analyzer: https://github.com/LimberDuck/nessus-file-analyzer
 .. _nessus-file-analyzer doc: https://nessus-file-analyzer.readthedocs.io
 .. _LimberDuck NFA GitHub Discussions: https://github.com/LimberDuck/nessus-file-analyzer/discussions
 .. _LimberDuck NFA GitHub Issues: https://github.com/LimberDuck/nessus-file-analyzer/issues
 
 .. nessus-file-reader:
-.. |NFR| replace:: :abbr:`NFR (nessus file reader (NFR) by Limberduck)`
-.. |**NFR**| replace:: :abbr:`NFR (nessus file reader (NFR) by Limberduck)`
+.. |NFR| replace:: :abbr:`NFR (LimberDuck NFR (nessus file reader))`
+.. |**NFR**| replace:: :abbr:`NFR (LimberDuck NFR (nessus file reader))`
 .. _nessus-file-reader: https://github.com/LimberDuck/nessus-file-reader
 .. _nessus-file-reader doc: https://nessus-file-reader.readthedocs.io
 

@@ -128,6 +128,10 @@ Latest NFA news
 Testimonials
 ------------
 
+   Bar none your product is best in my career.
+
+   -- |NFA| user
+
    I love the Nessus File Analyzer, so thank you so much for sharing and maintaining.
 
    -- |NFA| user

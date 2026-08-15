@@ -99,6 +99,13 @@ Latest NFR news
    :list-style: circle
    :tags: NFR
 
+Testimonials
+------------
+
+   Bar none your product is best in my career.
+
+   -- |NFR| user
+
 Stargazers over time
 --------------------
 

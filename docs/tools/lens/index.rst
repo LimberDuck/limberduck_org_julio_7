@@ -1,4 +1,4 @@
-:description: GUI tool which enables you to preview Tenable Nessus and nmap files.
+:description: GUI tool with Finder and Files app extensions for previewing Tenable Nessus and Nmap files.
 
 Lens
 ====

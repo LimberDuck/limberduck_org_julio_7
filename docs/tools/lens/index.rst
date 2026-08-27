@@ -16,6 +16,12 @@ It enables you to preview scan files produced by *Tenable Nessus*,
 Thanks to Lens, you will be able to quickly identify the right scan files and
 preview their results without opening them in a separate application.
 
+.. image:: ../../_static/img/logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg
+    :alt: Download on the App Store
+    :target: https://apps.apple.com/app/limberduck-lens/id6792565446
+    :height: 60px
+    :align: center
+
 .. figure:: ../../_static/img/limberduck-lens-mac_2_Thumbnail.png
    :width: 600
    :align: center
@@ -31,7 +37,7 @@ preview their results without opening them in a separate application.
 
 ..       .. image:: ../../_static/img/logos/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg
 ..          :alt: Download on the Mac App Store
-..          :target: https://limberduck.org/en/latest/
+..          :target: https://apps.apple.com/app/limberduck-lens/id6792565446
 ..          :height: 50px
 ..          :align: center
 
@@ -40,14 +46,14 @@ preview their results without opening them in a separate application.
 
 ..       .. image:: ../../_static/img/logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg
 ..          :alt: Download on the App Store
-..          :target: https://limberduck.org/en/latest/
+..          :target: https://apps.apple.com/app/limberduck-lens/id6792565446
 ..          :height: 50px
 ..          :align: center
 
 
-.. note::
+.. .. note::
 
-    More info soon.
+..     More info soon.
 
 
 How to use

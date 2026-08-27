@@ -7,3 +7,80 @@
     border-bottom: 1px solid var(--sy-c-divider);
     padding-bottom: 0.8rem;
 }
+
+@property --support-tool-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.support-tool-box {
+    display: block;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    color: inherit;
+    text-decoration: none;
+    background:
+        linear-gradient(var(--sy-c-surface), var(--sy-c-surface)) padding-box,
+        linear-gradient(var(--sy-c-background), var(--sy-c-background)) padding-box,
+        conic-gradient(
+            from var(--support-tool-angle),
+            transparent 0%,
+            var(--accent-9) 12%,
+            transparent 28%
+        ) border-box;
+    animation: support-tool-sweep 4s linear infinite;
+}
+
+@keyframes support-tool-sweep {
+    to {
+        --support-tool-angle: 360deg;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .support-tool-box {
+        animation: none;
+        border-color: var(--accent-9);
+    }
+}
+
+.support-tool-box p {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+}
+
+.support-tool-box__cta {
+    color: var(--sy-c-link);
+    font-weight: var(--sy-c-bold);
+    white-space: nowrap;
+}
+
+.support-tool-box:hover .support-tool-box__cta {
+    color: var(--sy-c-link-hover);
+}
+
+/* sd-col defaults to align-items: stretch (flex-direction: column), which
+   stretches the badge's <a> across the full cell width, making the empty
+   space beside the centered image clickable too. Shrink it back to the
+   image's own size. */
+.store-badge-item > a.image-reference {
+    align-self: center;
+}
+
+.support-matrix td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Keep the sticky right sidebar (support box + "On this page") clear of the
+   fixed navbar/announcement banner; the theme's own xl:top-16 utility only
+   accounts for the navbar and ignores the announcement banner height. */
+@media (min-width: 80rem) {
+    .sy-rside-inner {
+        top: var(--sy-s-offset-top);
+    }
+}

@@ -138,6 +138,7 @@ blog_feed_fulltext = True
 
 html_sidebars = {
    '**': ["ablog/postcard.html",
+          "sidebars/support-tool.html",
           "sidebars/localtoc.html",
         #   "sidebars/ethical-ads.html",
         ]

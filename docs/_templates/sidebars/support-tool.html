@@ -1,0 +1,16 @@
+{#
+  Sidebar box promoting a tool, shown above the "On this page" TOC on
+  every page (see html_sidebars in docs/conf.py). Hidden on the tool's
+  own page, since it would be pointless there.
+
+  To change what is promoted, edit the values below.
+#}
+{%- set support_tool_text = 'Support the project by using the new <strong>Lens</strong> tool!' -%}
+{%- set support_tool_cta = 'Discover Lens' -%}
+{%- set support_tool_page = 'tools/lens/index' -%}
+{%- if pagename != support_tool_page -%}
+  <a href="{{ pathto(support_tool_page) }}" class="support-tool-box">
+    <p>{{ support_tool_text }}</p>
+    <span class="support-tool-box__cta">{{ support_tool_cta }} &rarr;</span>
+  </a>
+{%- endif -%}

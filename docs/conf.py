@@ -91,6 +91,11 @@ html_theme_options = {
                     "url": "tools/tsccm/index",
                     "summary": "Manage <i>Tenable Security Center</i> in CLI via API",
                 },
+                {
+                    "title": "Lens",
+                    "url": "tools/lens/index",
+                    "summary": "Preview scan results from <i>nmap</i>, <i>Tenable Nessus</i> and <i>Tenable Security Center</i>",
+                },
             ]
         },
         {

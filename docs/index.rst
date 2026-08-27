@@ -63,8 +63,11 @@ LimberDuck
 
       CLI tool to manage Tenable Security Center via API.
 
-    .. grid-item-card:: :octicon:`rocket` and more...
-      :link: about/
+    .. grid-item-card:: :octicon:`package` Lens
+      :link: tools/lens/
+
+      Finder/Files extension and GUI tool to preview scan results 
+      on macOS/iOS/iPadOS.
 
 ..  .. grid-item-card:: :octicon:`terminal` ``tnscm`` (Tenable Nessus CLI Manager)
 
@@ -145,7 +148,7 @@ Testimonials
    tools/converter-csv/index
    tools/tnscm/index
    tools/tsccm/index
-..    tools/lens/index
+   tools/lens/index
 
 .. toctree::
    :caption: Notebooks

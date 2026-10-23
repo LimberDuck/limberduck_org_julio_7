@@ -18,6 +18,14 @@ Install **LimberDuck NFR (nessus file reader)**
     
     pip install nessus-file-reader
 
+.. attention::
+
+    If you want to generate xlsx reports, install **LimberDuck NFR (nessus file reader)** with ``xlsx`` extra:
+
+    .. code-block:: shell
+
+        pip install "nessus-file-reader[xlsx]"
+
 .. _nfr-upgrade:
 
 Upgrade

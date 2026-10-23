@@ -4,7 +4,7 @@ NFR v0.9.0: New report command - xlsx reports in CLI!
 =====================================================
 
 .. post:: 2026-10-23 18:00:00
-   :tags: NFR, NFA
+   :tags: NFR
    :category: Tools, News
    :author: Damian
 

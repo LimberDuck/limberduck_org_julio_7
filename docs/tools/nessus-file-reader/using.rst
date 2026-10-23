@@ -27,7 +27,7 @@ Check size of given file:
 .. code-block:: shell
 
    nfr file --size test_files/scan_avrx9t.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    test_files/scan_avrx9t.nessus 2.4 MiB
 
 
@@ -36,7 +36,7 @@ Check size of more than one file:
 .. code-block:: shell
 
    nfr file --size test_files/scan_avrx9t.nessus test_files/scan_ihc1js.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    test_files/scan_avrx9t.nessus 2.4 MiB
    test_files/scan_ihc1js.nessus 5.0 MiB
 
@@ -46,7 +46,7 @@ Check size of all files in given directory and it's subdirectories:
 .. code-block:: shell
 
    nfr file --size test_files  
-   nessus file reader by LimberDuck 0.4.2                                                      
+   LimberDuck NFR (nessus file reader) 0.4.2                                                      
    test_files/scan_avrx9t.nessus 2.4 MiB
    test_files/scan_ihc1js.nessus 5.0 MiB
    test_files/test_subdirectory/scan_ihc1js.nessus 878.3 KiB
@@ -60,7 +60,7 @@ Check structure of given file:
 .. code-block:: shell
 
    nfr file --structure test_files/scan_avrx9t.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    test_files/scan_avrx9t.nessus
    Policy [2/2]
    ├── policyName [3/3]
@@ -160,7 +160,7 @@ Then you need to provide to **LimberDuck NFR (nessus file reader)** as an input:
    :name: nfr-file-split-example
 
    nfr file --split 100 ./directory ./directory2
-   nessus file reader by LimberDuck 0.5.0
+   LimberDuck NFR (nessus file reader) 0.5.0
    ./directory/192_168_8_0_24_3mf2o4.nessus
    ./directory/192_168_8_0_24_3mf2o4_part1.nessus
    ./directory/192_168_8_0_24_3mf2o4_part2.nessus
@@ -217,7 +217,7 @@ See scan summary of given file/-s or all files in given directory and it's subdi
 .. code-block:: shell
 
    nfr scan --scan-summary scan_avrx9t.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    File name           Report name     TH    SH    CC    C    H    M    L    N
    ------------------  ------------  ----  ----  ----  ---  ---  ---  ---  ---
    scan_avrx9t.nessus  test scan        1     1     1   48  182  126   15   38
@@ -231,7 +231,7 @@ See description of columns returned in ``nfr scan --scan-summary``.
 .. code-block:: shell
 
    nfr scan --scan-summary-legend                              
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    Legend for scan summary:
    File name - nessus file name
    Report name - report name for given nessus file name
@@ -619,7 +619,7 @@ See policy scan summary of given file/-s or all files in given directory and it'
 .. code-block:: shell
 
    nfr scan --policy-summary scan_ihc1js.nessus scan_avrx9t.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    File name           Policy name      Max hosts    Max checks    Checks timeout    Plugins number
    ------------------  -------------  -----------  ------------  ----------------  ----------------
    scan_ihc1js.nessus  Advanced Scan          100             5                 5            103203
@@ -635,7 +635,7 @@ See scan file source like Nessus, Tenable.sc, Tenable.io of given file/-s or all
 .. code-block:: shell
 
    nfr scan --scan-file-source scan_ihc1js.nessus scan_avrx9t.nessus
-   nessus file reader by LimberDuck 0.4.2
+   LimberDuck NFR (nessus file reader) 0.4.2
    File name           Source
    ------------------  ----------
    scan_ihc1js.nessus  Tenable.sc

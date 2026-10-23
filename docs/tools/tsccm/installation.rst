@@ -16,7 +16,8 @@ Install **TSCCM**
 .. code-block:: shell
     
     pip install tsccm
-.. _nfr-upgrade:
+
+.. _tsccm-upgrade:
 
 Upgrade
 #######

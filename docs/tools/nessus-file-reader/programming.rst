@@ -1,10 +1,10 @@
-:description: Programming instruction for nessus file reader (NFR).
+:description: Programming instruction for LimberDuck NFR (nessus file reader).
 
 Programming
 ===========
 
 If command-line tool interface is not enough for you or you want to build 
-your own solution you can use **nessus file reader (NFR)** as a python module:
+your own solution you can use **LimberDuck NFR (nessus file reader)** as a python module:
 
 Import `nessus-file-reader` module.
    

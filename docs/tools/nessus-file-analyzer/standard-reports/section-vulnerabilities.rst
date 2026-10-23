@@ -474,7 +474,7 @@ Severity
     * - Post-processing
       - Severity is returned in human readable format, e.g. 
         ``Critical``, ``High``, ``Medium``, ``Low``, ``Info`` 
-        using **nessus file reader (NFR)**'s function 
+        using **LimberDuck NFR (nessus file reader)**'s function 
         ``severity_number_to_label(severity_number)``
 
     * - Column type
@@ -554,7 +554,7 @@ CVSSv2
     * - Post-processing
       - Severity is returned in human readable format, e.g. 
         ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
-        using **nessus file reader (NFR)**'s function 
+        using **LimberDuck NFR (nessus file reader)**'s function 
         ``cvssv2_score_to_severity(cvss_score)``
 
     * - Column type
@@ -611,7 +611,7 @@ CVSSv3
     * - Post-processing
       - Severity is returned in human readable format, e.g. 
         ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
-        using **nessus file reader (NFR)**'s function 
+        using **LimberDuck NFR (nessus file reader)**'s function 
         ``cvssv3_score_to_severity(cvss_score)``
 
     * - Column type
@@ -668,7 +668,7 @@ CVSSv4
     * - Post-processing
       - Severity is returned in human readable format, e.g. 
         ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
-        using **nessus file reader (NFR)**'s function 
+        using **LimberDuck NFR (nessus file reader)**'s function 
         ``cvssv4_score_to_severity(cvss_score)``
 
     * - Column type
@@ -725,7 +725,7 @@ VPR
     * - Post-processing
       - Severity is returned in human readable format, e.g. 
         ``Critical``, ``High``, ``Medium``, ``Low``, ``None`` 
-        using **nessus file reader (NFR)**'s function 
+        using **LimberDuck NFR (nessus file reader)**'s function 
         ``vpr_score_to_severity(vpr_score)``
 
     * - Column type

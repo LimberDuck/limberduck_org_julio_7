@@ -1,4 +1,4 @@
-:description: Settings instruction for nessus file analyzer (NFA).
+:description: Settings instruction for LimberDuck NFA (nessus file analyzer).
 
 ########
 Settings

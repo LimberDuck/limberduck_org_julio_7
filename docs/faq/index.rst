@@ -122,11 +122,11 @@ This error may occur when you are trying to parse a ``.nessus`` file directly fr
 
 ``.nessus`` files stored in Nessus Default Data Directories are not plain text files.
 
-To properly parse ``.nessus`` files with **nessus file analyzer (NFA)** you need to first export the scan report from Nessus web interface as a ``.nessus`` file.
+To properly parse ``.nessus`` files with **LimberDuck NFA (nessus file analyzer)** you need to first export the scan report from Nessus web interface as a ``.nessus`` file.
 
 Can LimberDuck tools split .nessus files?
 -----------------------------------------
-Yes, LimberDuck tools can split `.nessus files`. The **nessus file reader (NFR)** has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
+Yes, LimberDuck tools can split `.nessus files`. The **LimberDuck NFR (nessus file reader)** has a command called ``file`` that allows you to split large Nessus files into smaller, more manageable chunks. This is particularly useful for improving performance during post-processing if your processing tool can't handle large files.
 
 Check out the new feature in the documentation: :ref:`nfr-file-split`.
 

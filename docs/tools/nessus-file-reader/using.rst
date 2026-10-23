@@ -1,4 +1,4 @@
-:description: Using instruction for nessus file reader (NFR).
+:description: Using instruction for LimberDuck NFR (nessus file reader).
 
 #####
 Using
@@ -7,7 +7,7 @@ Using
 ``nfr --help``
 ==============
 
-Check help for **nessus file reader (NFR)** commands using ``nfr [command] --help``.
+Check help for **LimberDuck NFR (nessus file reader)** commands using ``nfr [command] --help``.
 
 ``nfr file``
 ============
@@ -149,7 +149,7 @@ You can do it with the following commands:
 1. Check the file size with the command :ref:`nfr-file-size`, e.g., ``nfr file --size scan1.nessus``.
 2. Check the number of scanned hosts (SH) with the command :ref:`nfr-scan-scan-summary`, e.g., ``nfr scan --scan-summary scan1.nessus``. 
 
-Then you need to provide to **LimberDuck nessus file reader (NFR)** as an input:
+Then you need to provide to **LimberDuck NFR (nessus file reader)** as an input:
 
 1. Maximum number of ``ReportHosts`` that you want to have in target files, e.g., ``--split 100`` will split the file into smaller files with a maximum number of 100 ``ReportHosts`` in each file.
 2. File(s) or directory(ies) with Nessus scan results.
@@ -186,10 +186,10 @@ Note that the general file structure doesn't change (marked in blue in the diagr
 3. A third new file will contain the fifth host ``<ReportHost> </ReportHost>`` from the source file (marked in orange in the diagram above).
 
 .. figure:: ../../_static/img/limberduck-nfr-split.svg
-    :alt: Diagram explaining splitting process with LimberDuck nessus file reader (NFR).
+    :alt: Diagram explaining splitting process with LimberDuck NFR (nessus file reader).
     :align: center
 
-    Diagram explaining the splitting process with LimberDuck nessus file reader (NFR).
+    Diagram explaining the splitting process with LimberDuck NFR (nessus file reader).
 
 
 
@@ -260,7 +260,7 @@ Just point the name or path to nessus file with scan results.
 .. code-block:: shell
 
    nfr scan --plugin-severity 192_168_1_1_1022nb.nessus 
-   nessus file reader (NFR) by LimberDuck 0.6.0
+   LimberDuck NFR (nessus file reader) 0.6.0
    File name                  Report host name       PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
    -------------------------  ------------------  ------  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
    192_168_1_1_1022nb.nessus  192.168.1.10         12217    2  Medium  Medium       5    Medium          5.3  Medium
@@ -279,7 +279,7 @@ Use ``-f`` or ``--filter`` to check only one Plugin ID among all scan results. R
 .. code-block:: shell
 
    nfr scan --plugin-severity *.nessus -f "[?PID == '50686']"
-   nessus file reader (NFR) by LimberDuck 0.6.0
+   LimberDuck NFR (nessus file reader) 0.6.0
    File name                          Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
    ---------------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
    192_168_1_1_1022nb-1.nessus        192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
@@ -291,7 +291,7 @@ Use ``-f`` or ``--filter`` to check only these plugins which have |VPR| assigned
 .. code-block:: shell
 
    nfr scan --plugin-severity 192_168_1_1_1022nb.nessus -f "[?VPR != null]"   
-   nessus file reader (NFR) by LimberDuck 0.6.0
+   LimberDuck NFR (nessus file reader) 0.6.0
    File name                  Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
    -------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
    192_168_1_1_1022nb.nessus  192.168.1.10        50686    2  Medium  Medium       5.8  Medium          6.5  Medium                            4.9  Medium  0.0596  6.0%
@@ -304,7 +304,7 @@ Use ``-f`` or ``--filter`` to check only these plugins which have, e.g., |CVSSv3
 .. code-block:: shell
 
    nfr scan --plugin-severity 192_168_1_1_1022nb.nessus -f "[?CVSSv3 > '4.0']"
-   nessus file reader (NFR) by LimberDuck 0.6.0
+   LimberDuck NFR (nessus file reader) 0.6.0
    File name                  Report host name      PID    S  SL      RF        CVSSv2  CVSSv2L      CVSSv3  CVSSv3L    CVSSv4    CVSSv4L      VPR  VPRL      EPSS  EPSS%
    -------------------------  ------------------  -----  ---  ------  ------  --------  ---------  --------  ---------  --------  ---------  -----  ------  ------  -------
    192_168_1_1_1022nb.nessus  192.168.1.10        12217    2  Medium  Medium       5    Medium          5.3  Medium
@@ -325,7 +325,7 @@ See description of columns returned in ``nfr scan --plugin-severity``.
 .. code-block:: shell
 
    nfr scan --plugin-severity-legend                         
-   nessus file reader (NFR) by LimberDuck 0.6.0
+   LimberDuck NFR (nessus file reader) 0.6.0
    Legend for plugin severity:
    File name - nessus file name
    Report host name - target name used during scan

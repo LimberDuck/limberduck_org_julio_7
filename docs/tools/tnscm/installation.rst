@@ -17,7 +17,8 @@ Install **TNSCM**
 .. code-block:: shell
     
     pip install tnscm
-.. _nfr-upgrade:
+
+.. _tnscm-upgrade:
 
 Upgrade
 #######

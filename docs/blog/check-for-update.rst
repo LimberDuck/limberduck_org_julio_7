@@ -13,7 +13,7 @@ New feature which will let you to quickly verify if you are running the latest v
 What's New?
 -----------
 
-For **nessus file reader (NFR)**, **TNSCM** and **TSCCM** you can now easily check if you are using the latest version of the tool. Simply run: 
+For **LimberDuck NFR (nessus file reader)**, **TNSCM** and **TSCCM** you can now easily check if you are using the latest version of the tool. Simply run: 
 
 - ``nfr --update-check`` or ``nfr -u``
 - ``tnscm --update-check`` or ``tnscm -u``
@@ -24,7 +24,7 @@ For **nessus file reader (NFR)**, **TNSCM** and **TSCCM** you can now easily che
    :emphasize-lines: 4
 
    % nfr -u
-   nessus file reader (NFR) by LimberDuck 0.7.1
+   LimberDuck NFR (nessus file reader) 0.7.1
 
    > You are using the latest version of nessus-file-reader: 0.7.1
 
@@ -39,7 +39,7 @@ For **nessus file reader (NFR)**, **TNSCM** and **TSCCM** you can now easily che
    :emphasize-lines: 4-5
 
    % nfr -u
-   nessus file reader (NFR) by LimberDuck 0.7.0
+   LimberDuck NFR (nessus file reader) 0.7.0
 
    > A new version of nessus-file-reader is available: 0.7.1 (you have 0.7.0)
    > Update with: pip install -U nessus-file-reader
@@ -49,7 +49,7 @@ For **nessus file reader (NFR)**, **TNSCM** and **TSCCM** you can now easily che
    > https://github.com/LimberDuck/nessus-file-reader
    > https://github.com/LimberDuck/nessus-file-reader/releases
 
-For **nessus file analyzer (NFA)** and **Converter CSV** you can check for updates directly from the application menu.
+For **LimberDuck NFA (nessus file analyzer)** and **Converter CSV** you can check for updates directly from the application menu.
 
 Go to **Help** menu and click on **Check for Update**.
 
@@ -57,7 +57,7 @@ Go to **Help** menu and click on **Check for Update**.
    :caption: Example output when you use latest version of the tool.
    :emphasize-lines: 1
 
-   You are using the latest version of nessus file analyzer (NFA) by LimberDuck: 0.9.0
+   You are using the latest version of LimberDuck NFA (nessus file analyzer): 0.9.0
 
    Read more:
    Documentation
@@ -70,7 +70,7 @@ Go to **Help** menu and click on **Check for Update**.
    :caption: Example output when you use outdated version of the tool.
    :emphasize-lines: 1,3-4,6-7
 
-   A new version of nessus file analyzer (NFA) by LimberDuck is available!
+   A new version of LimberDuck NFA (nessus file analyzer) is available!
 
    Latest: 0.9.0
    You have: 0.8.9

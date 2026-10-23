@@ -92,7 +92,7 @@ reported vulnerabilities [2]_ and/or noncompliance. It's free and Open Source [3
    :width: 600
    :align: center
 
-   **nessus file analyzer (NFA)** main window running on macOS, but works as well on Windows and Linux. 
+   **LimberDuck NFA (nessus file analyzer)** main window running on macOS, but works as well on Windows and Linux. 
 
 Technology stack
 ----------------
@@ -169,7 +169,7 @@ Stargazers over time
     :alt: Stargazers over time
     :align: center
 
-    **nessus file analyzer (NFA)** GitHub repository stars over time.
+    **LimberDuck NFA (nessus file analyzer)** GitHub repository stars over time.
 
 
 ----

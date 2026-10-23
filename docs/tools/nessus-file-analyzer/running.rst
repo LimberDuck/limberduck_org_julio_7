@@ -1,4 +1,4 @@
-:description: Running instruction for nessus file analyzer (NFA).
+:description: Running instruction for LimberDuck NFA (nessus file analyzer).
 
 #######
 Running
@@ -6,7 +6,7 @@ Running
 
 .. hint::
 
-    Since ``v0.10.0`` nessus file analyzer (NFA) comes with pre-built binaries for Windows, 
+    Since ``v0.10.0`` LimberDuck NFA (nessus file analyzer) comes with pre-built binaries for Windows, 
     Linux and macOS. You can download the latest version from 
     `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page. 
     You can still install it with ``pip`` and build it from source code if you want.
@@ -108,7 +108,7 @@ Build version
 Source version
 ##############
 
-Once you have **nessus file analyzer (NFA)** installed you can run it in Terminal with command:
+Once you have **LimberDuck NFA (nessus file analyzer)** installed you can run it in Terminal with command:
 
 .. code-block:: shell
 
@@ -130,7 +130,7 @@ Once you have **nessus file analyzer (NFA)** installed you can run it in Termina
         
         nessus-file-analyzer&
 
-Make a shortcut to **nessus file analyzer (NFA)** to run it even faster.
+Make a shortcut to **LimberDuck NFA (nessus file analyzer)** to run it even faster.
 
 .. tabs::
 
@@ -164,7 +164,7 @@ Make a shortcut to **nessus file analyzer (NFA)** to run it even faster.
 
    .. error::
    
-       If you have installed **nessus file analyzer (NFA)** on Ubuntu without 
+       If you have installed **LimberDuck NFA (nessus file analyzer)** on Ubuntu without 
        python virtual environment, and see below error:
    
        .. code-block:: shell
@@ -184,7 +184,7 @@ Make a shortcut to **nessus file analyzer (NFA)** to run it even faster.
 
    .. error::
 
-       If you run **nessus file analyzer (NFA)** and see below error:
+       If you run **LimberDuck NFA (nessus file analyzer)** and see below error:
    
        .. code-block:: shell
    

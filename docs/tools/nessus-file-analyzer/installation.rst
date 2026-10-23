@@ -1,4 +1,4 @@
-:description: Installation instruction for nessus file analyzer (NFA).
+:description: Installation instruction for LimberDuck NFA (nessus file analyzer).
 
 ############
 Installation
@@ -6,7 +6,7 @@ Installation
 
 .. hint::
 
-    Since ``v0.10.0`` nessus file analyzer (NFA) comes with pre-built binaries for Windows, 
+    Since ``v0.10.0`` LimberDuck NFA (nessus file analyzer) comes with pre-built binaries for Windows, 
     Linux and macOS. You can download the latest version from 
     `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page.
     Read more about it in :ref:`build-version-limberduck-nfa` section.
@@ -21,7 +21,7 @@ Installation
     | Read about `virtualenvwrapper in The Hitchhiker’s Guide to Python! <https://docs.python-guide.org/dev/virtualenvs/#virtualenvwrapper>`_: 
     | `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io>`_ provides a set of commands which makes working with virtual environments much more pleasant.
 
-Install **nessus file analyzer (NFA)**
+Install **LimberDuck NFA (nessus file analyzer)**
 
 .. code-block:: shell
 

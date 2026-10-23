@@ -1,4 +1,4 @@
-:description: Building instruction for nessus file analyzer (NFA).
+:description: Building instruction for LimberDuck NFA (nessus file analyzer).
 
 ########
 Building
@@ -6,7 +6,7 @@ Building
 
 .. hint::
 
-    Since ``v0.10.0`` nessus file analyzer (NFA) comes with pre-built binaries for Windows, 
+    Since ``v0.10.0`` LimberDuck NFA (nessus file analyzer) comes with pre-built binaries for Windows, 
     Linux and macOS. You can download the latest version from 
     `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page. 
     Read more about it in :ref:`build-version-limberduck-nfa` section.
@@ -17,7 +17,7 @@ Building
 .. note::
    This step is optional.
    
-You can build an executable file for **nessus file analyzer (NFA)**.
+You can build an executable file for **LimberDuck NFA (nessus file analyzer)**.
 
 .. tabs::
 

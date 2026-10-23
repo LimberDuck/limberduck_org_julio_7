@@ -1,4 +1,4 @@
-:description: Installation instruction for nessus file reader (NFR).
+:description: Installation instruction for LimberDuck NFR (nessus file reader).
 
 ############
 Installation
@@ -12,7 +12,7 @@ Installation
     | `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io>`_ provides a set of commands which makes working with virtual environments much more pleasant.
 
 
-Install **nessus file reader (NFR)**
+Install **LimberDuck NFR (nessus file reader)**
     
 .. code-block:: shell
     

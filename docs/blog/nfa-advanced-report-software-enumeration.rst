@@ -8,7 +8,7 @@ NFA v0.12.0: Advanced Report - Software Enumeration
    :category: Tools, News
    :author: Damian
 
-The latest releases of **nessus file analyzer (NFA) v0.12.0** now include  
+The latest releases of **LimberDuck NFA (nessus file analyzer) v0.12.0** now include  
 **Advanced Report - Software Enumeration** feature.
 
 Thanks to these new feature, you can now generate detailed reports listing all software 
@@ -21,7 +21,7 @@ For detailed usage guides, check out :doc:`../tools/nessus-file-analyzer/advance
 ..    upgrade NFA via ``pip``, check :doc:`../tools/nessus-file-analyzer/installation` instruction.
 
 .. hint:: 
-   You can download the latest version of **nessus file analyzer (NFA)** from
+   You can download the latest version of **LimberDuck NFA (nessus file analyzer)** from
    `GitHub Releases <https://github.com/LimberDuck/nessus-file-analyzer/releases>`_ page.
 
    If you decide to download from GitHub Releases, choose version ``0.12.4`` or later.

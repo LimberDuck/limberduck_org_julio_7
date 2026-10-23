@@ -1,9 +1,9 @@
-:description: Running instruction for nessus file reader (NFR).
+:description: Running instruction for LimberDuck NFR (nessus file reader).
 
 Running
 =======
 
-Once you have **nessus file reader (NFR)** installed you can run it in Terminal with command:
+Once you have **LimberDuck NFR (nessus file reader)** installed you can run it in Terminal with command:
 
 .. code-block:: shell
 

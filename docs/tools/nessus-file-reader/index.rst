@@ -78,7 +78,7 @@ times, outputs of particular plugins and a lot more. It's free and Open Source [
    :width: 600
    :align: center
 
-   **nessus file reader (NFR)** as Python module and |CLI| running in Terminal
+   **LimberDuck NFR (nessus file reader)** as Python module and |CLI| running in Terminal
 
 Technology stack
 ----------------
@@ -115,7 +115,7 @@ Stargazers over time
     :alt: Stargazers over time
     :align: center
 
-    **nessus file reader (NFR)** GitHub repository stars over time.
+    **LimberDuck NFR (nessus file reader)** GitHub repository stars over time.
 
 .. Instructions
 .. ------------

@@ -15,13 +15,4 @@ News
    :date: %Y-%m-%d
    :format: {date} - {title}
    :list-style: circle
-
-.. toctree::
-   :hidden:
-   :glob:
-
-   nfa-and-converter-csv-ready-to-download-and-run
-   check-for-update
-   compare-plugin-severity
-   split-large-nessus-files
-   new-website-look
+   :category: News

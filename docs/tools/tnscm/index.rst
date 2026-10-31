@@ -6,17 +6,17 @@ TNSCM
 |tnscm_pepy_downloads| |stars_from_users| |latest_release| |latest_release_date| |license| |supported_platform|
 
 
-TNSCM by LimberDuck is a |CLI| tool which enables you to perform certain actions on 
+LimberDuck TNSCM is a |CLI| tool which enables you to perform certain actions on 
 *Tenable Nessus* by (C) Tenable, Inc. via Nessus |API| used for |VA| [1]_ process.
 It's free and Open Source [2]_ tool.
 
 This tool will let you perform actions like:
 
-- plugin family (``list``)
-- policy (``list``, ``delete``)
-- scan (``list``, ``delete``)
-- server (``status``, ``licensed IPs``, ``version``)
-- advanced settings (``list``)
+- plugin (``family list``, ``details`` of given plugin)
+- policy (``list``, ``download``, ``upload``, ``compare`` two policies, ``delete``)
+- scan (``list``, ``list history``, ``list folders``, ``download`` results, ``compare`` findings of two scan runs)
+- server (``status``, ``licensed IPs``, ``version``, ``health``, ``licence`` and plugin feed check)
+- advanced settings (``list``, ``get``, ``edit``, ``add``, ``delete``)
 - user (``list``)
 
 .. seealso:: 
@@ -77,7 +77,7 @@ Technology stack
    :width: 70px
 
 Latest TNSCM news
----------------
+-----------------
 
 .. postlist::
    :language: en

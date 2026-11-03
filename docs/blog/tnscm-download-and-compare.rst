@@ -1,5 +1,5 @@
 :blogpost: true
-:description: Now you can download scan results, compare findings of two scan runs, back up and compare policies, monitor scanner health and license, check plugin details and manage advanced settings - all from command line, also in CI/CD pipeline or scheduled job.
+:description: Now you can download scan results, compare findings of two scan runs, back up and compare policies, monitor scanner health and license, check plugin details and manage advanced settings in CLI, CI/CD pipeline or scheduled job.
 
 TNSCM v0.1.0: Download and compare scans and policies!
 ======================================================

@@ -1,4 +1,5 @@
 :blogpost: true
+:description: Now you can generate the same xlsx reports as NFA does, with scans, hosts, vulnerabilities and noncompliance worksheets, but without GUI. Now you can generate reports automatically, e.g. in CI/CD pipeline or scheduled job.
 
 NFR v0.9.0: New report command - xlsx reports in CLI!
 =====================================================
